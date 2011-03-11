@@ -16,5 +16,5 @@ $lang['data_backup_instructions_writable'] = 'También se creará un fichero con
 $lang['data_backup_instructions_not_writable'] = 'Para guardar los datos comprimidos en el servidor, debes dar permisos de escritura al siguiente directorio o cambiar el directorio por defecto en la configuración de fuel. <strong>Comprueba que este directorio no es accesible por otros y que está debajo del directorio raíz o está protegido por un fichero .htaccess</strong>:';
 $lang['data_backup_not_writable'] = '(sin permisos de escritura)';
 $lang['data_backup_include_assets'] = '¿Incluir el directorio de assets?';
-$lang['data_backup_no_backup'] = 'No hacer copia de seguridad';
+$lang['data_backup_no_backup'] = 'No, No hacer copia de seguridad';
 $lang['data_backup_yes_backup'] = 'Sí, hacer copia de seguridad';
