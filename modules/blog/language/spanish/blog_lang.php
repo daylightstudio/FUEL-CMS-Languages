@@ -130,3 +130,6 @@ $lang['form_label_comments_time_limit_after_html'] = ' después de la fecha del 
 $lang['form_label_cache_ttl'] = 'Guardar caché durante';
 $lang['form_label_asset_upload_path'] = 'Ruta para la subida de assets';
 $lang['form_label_per_page'] = 'Por página';
+
+/* End of file blog_lang.php */
+/* Location: ./modules/blog/language/spanish/blog_lang.php */

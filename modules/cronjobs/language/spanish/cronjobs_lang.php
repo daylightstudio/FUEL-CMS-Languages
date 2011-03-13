@@ -17,3 +17,6 @@ $lang['cronjobs_month_day'] = 'día';
 $lang['cronjobs_month_num'] = 'mes';
 $lang['cronjobs_week_day'] = 'semana';
 $lang['cronjobs_command'] = 'comando';
+
+/* End of file cronjobs_lang.php */
+/* Location: ./modules/cronjobs/language/spanish/cronjobs_lang.php */

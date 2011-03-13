@@ -1,31 +1,31 @@
 <?php
-$lang['module_validate'] = 'Validate';
+$lang['module_validate'] = 'Validar';
 
-$lang['error_html_validation'] = 'There are one ore more HTML errors detected.';
-$lang['error_no_pages_selected'] = 'Please select or input the pages you would like to validate.';
-$lang['error_public_accessible_server'] = 'Your site must be on a publicly accessible server for the link validation to work correctly.';
-$lang['error_checking_page_links'] = 'There was an error checking the links of this page';
+$lang['error_html_validation'] = 'Hay uno o más errores HTML detectados.';
+$lang['error_no_pages_selected'] = 'Por favor, selecciona o introduce las páginas que deseas validar.';
+$lang['error_public_accessible_server'] = 'Tu sitio debe estar en un servidor accesible públicamente para que la validación de enlaces funcione correctamente.';
+$lang['error_checking_page_links'] = 'Hubo un error probando los enlaces de la página';
 
-$lang['validate_instructions'] = 'Select the pages on the left to validate. Then select whether you want to validate the HTML or the page links for each page. 
-Processing time may take seconds to several minutes depending on the number of pages selected.
-For HTML validation, it is recommended that you either <a href="http://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>setup a local validation server</strong></a>, 
-or validate only several at a time to avoid being temporarily blocked from the w3c.org.';
+$lang['validate_instructions'] = 'Selecciona las páginas a validar en la izquierda. Entonces selecciona si deseas validar el HTML o los enlaces para cada página. 
+El tiempo de proceso puede validar de algunos segundos a varios minutos dependiendo del número de páginas seleccionadas.
+Para la validación de HTML, es recomendable que bien <a href="http://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>configures un servidor de validación local</strong></a>, 
+o valides pocas a la vez para evitar ser bloqueado en w3c.org.';
 
-$lang['btn_validate_links'] = 'Validate Links';
-$lang['btn_validate_html'] = 'Validate HTML';
-$lang['btn_view_size_report'] = 'View Size Report';
-$lang['btn_reload_all'] = 'Reload All';
+$lang['btn_validate_links'] = 'Validar enlaces';
+$lang['btn_validate_html'] = 'Validar HTML';
+$lang['btn_view_size_report'] = 'Ver el informe del tamaño';
+$lang['btn_reload_all'] = 'Recargar todos';
 
-$lang['validate_link_back_to_page_selection'] = 'Back to page selection';
+$lang['validate_link_back_to_page_selection'] = 'Volver a la selección de página';
 
-$lang['validate_pages_input'] = 'OR, input the page(s) manually relative to this domain, separated by a return';
+$lang['validate_pages_input'] = 'O introduce la(s) página(s) manualmente relativas a este dominio, separadas por un salto de línea';
 
 $lang['validate_type_html'] = 'HTML';
-$lang['validate_type_links'] = 'Links';
-$lang['validate_type_size_report'] = 'Size Report';
+$lang['validate_type_links'] = 'Enlaces';
+$lang['validate_type_size_report'] = 'Informe de tamaño';
 
 // js localization
 include('validate_js_lang'.EXT);
 
 /* End of file validate_lang.php */
-/* Location: ./modules/validate/language/english/validate_lang.php */
+/* Location: ./modules/validate/language/spanish/validate_lang.php */

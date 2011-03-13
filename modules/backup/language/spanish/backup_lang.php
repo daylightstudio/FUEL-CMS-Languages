@@ -18,3 +18,6 @@ $lang['data_backup_not_writable'] = '(sin permisos de escritura)';
 $lang['data_backup_include_assets'] = '¿Incluir el directorio de assets?';
 $lang['data_backup_no_backup'] = 'No, No hacer copia de seguridad';
 $lang['data_backup_yes_backup'] = 'Sí, hacer copia de seguridad';
+
+/* End of file backup_lang.php */
+/* Location: ./modules/backup/language/spanish/backup_lang.php */
