@@ -17,6 +17,8 @@ $lang['btn_asset'] = 'Asset';
 $lang['btn_image'] = 'Imagen';
 $lang['btn_pdf'] = 'PDF';
 $lang['btn_flash'] = 'Flash';
+$lang['btn_view_source'] = 'Ver fuente';
+$lang['btn_view_editor'] = 'Ver editor';
 
 $lang['comboselect_values_empty'] = 'No hay más valores para seleccionar';
 $lang['comboselect_selected_empty'] = 'Selecciona desde los valores de la izquierda';
@@ -27,6 +29,11 @@ $lang['confirm_delete'] = '¿Estás seguro de querer borrar esto?';
 
 $lang['form_label_send_email_notification'] = 'Send password update email notification?';
 $lang['form_label_send_email_notification'] = '¿Enviar notificación al email cuando se haga un cambio de contraseña?';
+$lang['error_importing_ajax'] = 'Error importando el fichero de vista';
+
+$lang['viewpage_close'] = 'Cerrar';
+
+$lang['rearrange_on'] = 'Puedes cambiar el orden de precedencia seleccionando y arrastrando las filas de datos más abajo.';
 
 /*
 |--------------------------------------------------------------------------

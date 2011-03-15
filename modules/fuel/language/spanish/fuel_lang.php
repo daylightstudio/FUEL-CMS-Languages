@@ -9,7 +9,7 @@ $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Identificado como:';
 $lang['logout'] = 'Cerrar sesión';
 $lang['fuel_developed_by'] = 'FUEL CMS version %1s está desarrollado por <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> y construído sobre el framework <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
-$lang['fuel_copyright'] = 'Copyright &copy; 2010 Daylight Studio. Todos los derechos reservados.';
+$lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. Todos los derechos reservados.';
 
 
 /*
@@ -38,7 +38,7 @@ $lang['error_saving'] = 'Hubo un error guardando.';
 $lang['error_cannot_preview'] = 'Hubo un error intentando previsualizar esta página.';
 $lang['error_cannot_make_api_call'] = 'Hubo un error realizando una llamada a la API a %1s.';
 $lang['error_sending_email'] = 'Hubo un error enviando un correo electrónico a %1s.';
-$lang['error_nav_upload'] = 'Hubo un error subiendo el fichero de navegación.';
+$lang['error_upload'] = 'Hubo un error subiendo el fichero.';
 $lang['error_create_nav_group'] = 'Por favor, crea un grupo de navegación';
 $lang['error_requires_string_value'] = 'El nombre del fichero debe ser una cadena de texto';
 $lang['error_missing_params'] = 'Te faltan parámetros para ver esta página';
@@ -170,6 +170,8 @@ $lang['page_layout_vars'] = 'Variables de layout';
 
 $lang['pages_instructions'] = 'Aquí puedes administrar los datos asociados a la página.';
 $lang['pages_associated_navigation'] = 'Navegación asociada';
+$lang['pages_success_upload'] = 'La vista de página se subió correctamente.';
+$lang['pages_upload_instructions'] = 'Selecciona un fichero de vista y súbelo a una de las páginas de más abajo.';
 
 // page specific form fields
 $lang['form_label_layout'] = 'Layout';
@@ -186,7 +188,8 @@ $lang['pages_default_location'] = 'ejemplo: company/about';
 */
 $lang['blocks_updated_view'] = 'Hay un fichero de vista actualizado localizado en <strong>%1s</strong>. ¿Quieres importarlo?';
 $lang['form_label_view'] = 'Vista';
-
+$lang['blocks_success_upload'] = 'The block view was successfully uploaded.';
+$lang['blocks_upload_instructions'] = 'Selecciona un fichero de vista de bloque y súbelo más abajo.';
 
 /*
 |--------------------------------------------------------------------------
@@ -194,7 +197,6 @@ $lang['form_label_view'] = 'Vista';
 |--------------------------------------------------------------------------
 */
 $lang['navigation_instructions'] = 'Aquí puedes crear y editar los elementos del menú superior de la página.';
-$lang['navigation_import'] = 'Importar';
 $lang['navigation_import_instructions'] = 'Select a navigation group and upload a file to import below. The file should contain the PHP array variable <strong>$nav</strong>. For a reference of the array format, please consult the <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">user guide</a>';
 $lang['navigation_import_instructions'] = 'Selecciona un grupo de navegación y sube un fichero de importación más abajo. El fichero debe contener la variable de array PHP <strong>$nav</strong>. Para referencia sobre el formato de array, por favor, consulta la <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">guía de usuario</a>';
 $lang['navigation_success_upload'] = 'La navegación ha sido subida correctamente.';
@@ -332,6 +334,7 @@ $lang['btn_list'] = 'Lista';
 $lang['btn_tree'] = 'Árbol';
 $lang['btn_create'] = 'Crear';
 $lang['btn_delete_multiple'] = 'Borrado múltiple';
+$lang['btn_rearrange'] = 'Reordenar';
 $lang['btn_search'] = 'Buscar';
 $lang['btn_view'] = 'Ver';
 $lang['btn_publish'] = 'Publicar';
@@ -389,6 +392,7 @@ $lang['form_label_permalink'] = 'Enlace permanente';
 $lang['form_label_slug'] = 'URL amigable';
 $lang['form_label_url'] = 'URL';
 
+$lang['form_label_group_id'] = 'Grupo';
 $lang['form_enum_option_yes'] = 'sí';
 $lang['form_enum_option_no'] = 'no';
 
