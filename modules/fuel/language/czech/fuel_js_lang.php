@@ -17,6 +17,8 @@ $lang['btn_asset'] = 'Knihovna';
 $lang['btn_image'] = 'Obrázek';
 $lang['btn_pdf'] = 'PDF';
 $lang['btn_flash'] = 'Flash';
+$lang['btn_view_source'] = 'Zobrazit kód';
+$lang['btn_view_editor'] = 'Zobrazit editor';
 
 $lang['comboselect_values_empty'] = 'Nelze vybrat žádné další hodnoty';
 $lang['comboselect_selected_empty'] = 'Vyberte si z hodnot vlevo';
@@ -26,6 +28,12 @@ $lang['tree_orphans'] = '_orphans';
 $lang['confirm_delete'] = 'Opravdu to chcete smazat?';
 
 $lang['form_label_send_email_notification'] = 'Zaslat heslo emailem?';
+
+$lang['error_importing_ajax'] = 'Chyba při importu souboru šablony';
+
+$lang['viewpage_close'] = 'Zavřít';
+
+$lang['rearrange_on'] = 'Můžete upravit pořadí výběrem a přesunutím řádků v tabulce.';
 
 /*
 |--------------------------------------------------------------------------
