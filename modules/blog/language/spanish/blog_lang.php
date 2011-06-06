@@ -104,8 +104,6 @@ $lang['form_label_reply'] = 'Respuesta';
 $lang['form_label_commentor'] = 'Autor del comentario';
 $lang['form_label_reply_notify'] = 'Notificar';
 $lang['form_label_author_ip'] = 'Dirección IP del autor';
-$lang['form_label_is_spam'] = 'Es SPAM';
-$lang['form_label_author_ip'] = 'Dirección IP del autor';
 
 
 /*
