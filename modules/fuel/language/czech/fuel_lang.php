@@ -38,7 +38,8 @@ $lang['error_saving'] = 'Nastala chyba při ukládání.';
 $lang['error_cannot_preview'] = 'Nastala chyba při pokusu o zobrazení náhledu této stránky.';
 $lang['error_cannot_make_api_call'] = 'Nastala chyba při provádění API volání do %1s.';
 $lang['error_sending_email'] = 'Nastala chyba při odesílání emailu: %1s.';
-$lang['error_nav_upload'] = 'Nastala chyba při uploadu souboru s navigací.';
+$lang['error_upload'] = 'Nastala chyba při uploadu souboru.';
+$lang['error_create_nav_group'] = 'Vytvořte prosím Navigační skupinu.';
 $lang['error_requires_string_value'] = 'Jméno pole musí mít hodnotu string.';
 $lang['error_missing_params'] = 'Pro zobrazení této stránky chybí parametry.';
 
@@ -76,7 +77,7 @@ $lang['dashboard_intro'] = 'Vítejte ve FUEL CMS.';
 $lang['dashboard_hdr_latest_activity'] = 'Poslední aktivita';
 $lang['dashboard_hdr_latest_news'] = 'Poslední FUEL zprávy';
 $lang['dashboard_hdr_modified'] = 'Poslední modifikované stránky';
-$lang['dashboard_hdr_site_docs'] = 'Mapa stránek';
+$lang['dashboard_hdr_site_docs'] = 'Dokumentace webu';
 $lang['dashboard_change_pwd'] = 'Změnit heslo';
 $lang['dashboard_change_pwd_later'] = 'Změním si heslo později';
 $lang['dashboard_subscribe_rss'] = 'Subscribe to the RSS Feed';
@@ -124,7 +125,7 @@ $lang['module_sitevariables'] = 'Proměné';
 $lang['module_users'] = 'Uživatelé';
 $lang['module_permissions'] = 'Práva';
 $lang['module_manage_cache'] = 'Cache stránky';
-$lang['module_manage_activity'] = 'Aktivity Log';
+$lang['module_manage_activity'] = 'Záznam aktivity';
 
 $lang['section_site'] = 'Website';
 $lang['section_blog'] = 'Blog';
@@ -142,14 +143,16 @@ $lang['module_created']= "%1s položka <em>%2s</em> vytvořena";
 $lang['module_edited'] = "%1s položka <em>%2s</em> editována";
 $lang['module_deleted'] = "%1s položka pro <em>%2s</em> smazána";
 $lang['module_restored'] = "%1s položka obnovena z archivu.";
-$lang['module_instructions_default'] = "Zde můžete spravovat %1s pro vaši webovou prezentaci.";
+$lang['module_instructions_default'] = "Zde můžete spravovat %1s pro váš web.";
 
 $lang['cannot_determine_module'] = "Nemohu určit modul.";
 $lang['incorrect_route_to_module'] = "Špatná cesta k přistupu k modulu.";
 $lang['data_saved'] = 'Data byla uložena.';
 $lang['data_deleted'] = 'Data byla smazána.';
+$lang['data_not_deleted'] = 'Některá data nemohla být smazána.';
 $lang['no_data'] = 'Nejsou k dipozici žádná data k zobrazení.';
 $lang['no_preview_path'] = 'K tomuto modulu není nastavena žádná cesta k náhledu.';
+$lang['delete_item_message'] = 'Chystáte se smazat následující položku:';
 
 
 /*
@@ -169,6 +172,9 @@ $lang['page_layout_vars'] = 'Proměné layoutu';
 
 $lang['pages_instructions'] = 'Zde můžete spravovat veškerá data, která souvisí se stránkou.';
 $lang['pages_associated_navigation'] = 'Přidružená navigace';
+$lang['pages_success_upload'] = 'Šablona stránky byla úspěšně nahrána.';
+$lang['pages_upload_instructions'] = 'Vyberte šablonu stránky a nahrajte pro stránku níže.';
+
 
 // page specific form fields
 $lang['form_label_layout'] = 'Layout';
@@ -183,7 +189,10 @@ $lang['pages_default_location'] = 'příklad: spolecnost/o_nas';
 | Blocks
 |--------------------------------------------------------------------------
 */
-$lang['blocks_updated_view'] = 'Byl nalezen aktualizovaný view soubor, který se nachází v: <strong>%1s</strong>. Chcete tento soubor importovat?';
+$lang['blocks_updated_view'] = 'Byl nalezen aktualizovaný soubor šablony, který se nachází v: <strong>%1s</strong>. Chcete tento soubor importovat?';
+$lang['blocks_success_upload'] = 'Soubor šablony pro blok byl úspěšně nahrán.';
+$lang['blocks_upload_instructions'] = 'Vyberte soubor šablony pro blok a nahrajte jej níže.';
+
 $lang['form_label_view'] = 'View';
 
 
@@ -193,7 +202,6 @@ $lang['form_label_view'] = 'View';
 |--------------------------------------------------------------------------
 */
 $lang['navigation_instructions'] = 'Zde můžete vytvářet a editovat položky horního menu.';
-$lang['navigation_import'] = 'Importovat';
 $lang['navigation_import_instructions'] = 'Označte skupinu navigace a nahrajte soubor k importu. Soubor by měl obsahovat PHP proměnnou typu pole <strong>$nav</strong>. Bližší informace o správném tvaru tohoto pole můžete najít v <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">uživatelské příručce</a>';
 $lang['navigation_success_upload'] = 'Navigace byla úspěšně nahrána.';
 $lang['form_label_navigation_group'] = 'Skupina navigace';
@@ -266,7 +274,7 @@ $lang['perm_blog/settings'] = 'Blog - Nastavení';
 $lang['perm_blog/users'] = 'Blog Autoři';
 $lang['perm_google_analytics'] = 'Google Analytics';
 $lang['perm_manage'] = 'Zobrazit nastavení nástěnky';
-$lang['perm_manage/activity'] = 'Zobrazit aktivity logy';
+$lang['perm_manage/activity'] = 'Zobrazit záznamy aktivit';
 $lang['perm_manage/cache'] = 'Spravovat cache';
 $lang['perm_myPHPadmin'] = 'myPHPadmin';
 $lang['perm_navigation'] = 'Správa navigace';
@@ -330,6 +338,7 @@ $lang['btn_list'] = 'Seznam';
 $lang['btn_tree'] = 'Strom';
 $lang['btn_create'] = 'Vytvořit';
 $lang['btn_delete_multiple'] = 'Smazat více položek';
+$lang['btn_rearrange'] = 'Přeskupit';
 $lang['btn_search'] = 'Hledat';
 $lang['btn_view'] = 'Zobrazit';
 $lang['btn_publish'] = 'Publikovat';
@@ -339,13 +348,13 @@ $lang['btn_deactivate'] = 'Deaktivovat';
 $lang['btn_delete'] = 'Smazat';
 $lang['btn_duplicate'] = 'Duplikovat';
 $lang['btn_ok'] = 'OK';
-$lang['btn_upload'] = 'Upload';
+$lang['btn_upload'] = 'Nahrát soubor';
 
 $lang['btn_no'] = 'Ne';
 $lang['btn_yes'] = 'Ano';
 
-$lang['btn_no_upload'] = 'Ne, nechci uploadovat.';
-$lang['btn_yes_upload'] = 'Ano, chci uploadovat';
+$lang['btn_no_upload'] = 'Ne, nenahrát.';
+$lang['btn_yes_upload'] = 'Ano, nahrát';
 
 $lang['btn_no_dont_delete'] = 'Ne, nemazat';
 $lang['btn_yes_dont_delete'] = 'Ano, smazat';
