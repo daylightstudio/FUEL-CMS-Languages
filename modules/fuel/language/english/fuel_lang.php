@@ -42,6 +42,7 @@ $lang['error_upload'] = 'There was an error uploading the your file.';
 $lang['error_create_nav_group'] = 'Please create a Navigation Group';
 $lang['error_requires_string_value'] = 'The name field should be a string value';
 $lang['error_missing_params'] = 'You are missing parameters to view this page';
+$lang['error_invalid_method'] = 'Invalid method name';
 
 
 /*
@@ -244,8 +245,6 @@ $lang['assets_comment_aspect_ratio'] = 'Maintain the aspect ratio of the image i
 $lang['assets_comment_width'] = 'Will change the width of an image to the desired amount.';
 $lang['assets_comment_height'] = 'Will change the height of an image to the desired amount.';
 $lang['assets_comment_master_dim'] = 'Specifies the master dimension to use for resizing. If the source image size does not allow perfect resizing to those dimensions, this setting determines which axis should be used as the hard value. "auto" sets the axis automatically based on whether the image is taller then wider, or vice versa.';
-
-
 
 
 /*
