@@ -247,6 +247,8 @@ $lang['assets_comment_height'] = 'Will change the height of an image to the desi
 $lang['assets_comment_master_dim'] = 'Specifies the master dimension to use for resizing. If the source image size does not allow perfect resizing to those dimensions, this setting determines which axis should be used as the hard value. "auto" sets the axis automatically based on whether the image is taller then wider, or vice versa.';
 
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Site Variables
@@ -285,7 +287,7 @@ $lang['perm_assets'] = 'Assets';
 $lang['perm_blocks'] = 'Manage Blocks';
 $lang['perm_blog/categories'] = 'Blog Categories';
 $lang['perm_blog/comments'] = 'Blog Comments';
-$lang['perm_blog/links'] = 'Blog Comments';
+$lang['perm_blog/links'] = 'Blog Links';
 $lang['perm_blog/posts'] = 'Blog Posts';
 $lang['perm_blog/settings'] = 'Blog Settings';
 $lang['perm_blog/users'] = 'Blog Authors';
@@ -425,7 +427,7 @@ $lang['required_text'] = 'required fields';
 | Layouts
 |--------------------------------------------------------------------------
 */
-$lang['layout_fiel_main_copy'] = 'This is the main layout to be used for your site.';
+$lang['layout_field_main_copy'] = 'This is the main layout to be used for your site.';
 $lang['layout_field_page_title'] = 'Page title';
 $lang['layout_field_meta_description'] = 'Meta description';
 $lang['layout_field_meta_keywords'] = 'Meta keywords';
@@ -438,7 +440,6 @@ $lang['layout_field_301_redirect_copy'] = 'This layout will do a 301 redirect to
 $lang['layout_field_sitemap_xml_copy'] = 'This layout is used to generate a sitemap.';
 $lang['layout_field_none_copy'] = 'This layout is the equivalent of having no layout assigned.';
 
-$lang['layout_field_main_copy'] = 'This is the main layout to be used for your site.';
 $lang['layout_field_frequency'] = 'Frequency';
 $lang['layout_field_frequency_always'] = 'always';
 $lang['layout_field_frequency_hourly'] = 'hourly';
