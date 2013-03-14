@@ -4,10 +4,10 @@
 | Inline Edit Toolbar
 |--------------------------------------------------------------------------
 */
-$lang['inline_edit_toggle_toolbar'] = 'Toggle toolbar display';
-$lang['inline_edit_toggle_editable'] = 'Toggle editable areas';
-$lang['inline_edit_toggle_publish'] = 'Toggle the pages publish status';
-$lang['inline_edit_toggle_cache'] = 'Toggle page cache settings';
+$lang['inline_edit_toggle_toolbar'] = 'Alterar para a exibição da barra de ferramentas';
+$lang['inline_edit_toggle_editable'] = 'Alterar áreas editáveis';
+$lang['inline_edit_toggle_publish'] = 'Alterar o estado das páginas';
+$lang['inline_edit_toggle_cache'] = 'Alterar definições de cache';
 
 $lang['inline_edit_tools'] = 'Ferramentas...';
 $lang['inline_edit_other_pages'] = 'Outras páginas...';
