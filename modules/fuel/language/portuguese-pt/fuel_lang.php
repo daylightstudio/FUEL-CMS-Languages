@@ -6,10 +6,10 @@
 |--------------------------------------------------------------------------
 */
 $lang['fuel_page_title'] = 'FUEL CMS';
-$lang['logged_in_as'] = 'Logged in as:';
+$lang['logged_in_as'] = 'Autenticado como:';
 $lang['logout'] = 'Sair';
-$lang['fuel_developed_by'] = 'FUEL CMS version %1s is developed by <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> and built upon the <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a> framework.';
-$lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. All Rights Reserved.';
+$lang['fuel_developed_by'] = 'FUEL CMS versão %1s é devenvolvido por <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> e  desenvolvido sobre a framework <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
+$lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. Todos os Direitos Reservados.';
 
 
 /*
@@ -19,7 +19,7 @@ $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. All Rights Rese
 */
 $lang['error_no_access'] = "Não tem acesso a esta página.";
 $lang['error_missing_module'] = "You are missing the module %1s.";
-$lang['error_invalid_login'] = 'Invalid login.';
+$lang['error_invalid_login'] = 'Utilizador Inválido.';
 $lang['error_max_attempts'] = 'Sorry, but your login information was incorrect and you are temporarily locked out. Please try again in %s seconds.';
 $lang['error_empty_user_pwd'] = 'Please enter in a user name and password.';
 $lang['error_pwd_reset'] = 'There was an error in resetting your password.';
@@ -70,7 +70,7 @@ $lang['logged_in'] = "%s logged in";
 $lang['logged_out'] = "%s logged out";
 $lang['dev_pwd_instructions'] = 'This site is currently in development and requires a password to view.';
 $lang['login_forgot_pwd'] = 'Forgot password?';
-$lang['login_reset_pwd'] = 'Reset Password';
+$lang['login_reset_pwd'] = 'Reset à Password';
 $lang['login_btn'] = 'Login';
 $lang['logout_restore_original_user'] = 'Restore original user';
 
@@ -89,7 +89,7 @@ $lang['dashboard_hdr_site_docs'] = 'Site Documentation';
 $lang['dashboard_change_pwd'] = 'Alterar password';
 $lang['dashboard_change_pwd_later'] = 'I\'ll change my password later';
 $lang['dashboard_subscribe_rss'] = 'Subscribe to the RSS Feed';
-$lang['dashboard_view_all_pages'] = 'View all pages';
+$lang['dashboard_view_all_pages'] = 'Ver todas as páginas';
 $lang['dashboard_view_all_activity'] = 'View all activity';
 
 
@@ -98,7 +98,7 @@ $lang['dashboard_view_all_activity'] = 'View all activity';
 | My Profile
 |--------------------------------------------------------------------------
 */
-$lang['section_my_profile'] = 'My Profile';
+$lang['section_my_profile'] = 'O Meu Perfil';
 $lang['profile_instructions'] = 'Change your profile information below:';
 
 
@@ -107,7 +107,7 @@ $lang['profile_instructions'] = 'Change your profile information below:';
 | My Modules
 |--------------------------------------------------------------------------
 */
-$lang['section_my_modules'] = 'My Modules';
+$lang['section_my_modules'] = 'Os Meus Módulos';
 
 
 /*
@@ -131,15 +131,15 @@ $lang['cache_cleared'] = "Site cache cleared explicitly";
 */
 
 $lang['module_dashboard'] = 'Dashboard';
-$lang['module_pages'] = 'Pages';
+$lang['module_pages'] = 'Páginas';
 $lang['module_blocks'] = 'Blocks';
 $lang['module_navigation'] = 'Navigation';
-$lang['module_categories'] = 'Categories';
+$lang['module_categories'] = 'Categorias';
 $lang['module_tags'] = 'Tags';
 $lang['module_assets'] = 'Assets';
 $lang['module_sitevariables'] = 'Site Variables';
-$lang['module_users'] = 'Users';
-$lang['module_permissions'] = 'Permissions';
+$lang['module_users'] = 'Utilizadores';
+$lang['module_permissions'] = 'Permissões';
 $lang['module_tools'] = 'Tools';
 $lang['module_manage_cache'] = 'Page Cache';
 $lang['module_manage_activity'] = 'Activity Log';
@@ -149,8 +149,8 @@ $lang['module_generate'] = 'Generated';
 
 $lang['section_site'] = 'Site';
 $lang['section_blog'] = 'Blog';
-$lang['section_modules'] = 'Modulos';
-$lang['section_manage'] = 'Manage';
+$lang['section_modules'] = 'Módulos';
+$lang['section_manage'] = 'Gerir';
 $lang['section_tools'] = 'Tools';
 $lang['section_settings'] = 'Settings';
 $lang['section_recently_viewed'] = 'Recently Viewed';
@@ -216,7 +216,7 @@ $lang['page_updated_view'] = 'There is an updated view file located at <strong>%
 $lang['page_not_published'] = 'This page is not published.';
 
 $lang['page_no_upload'] = 'No, don\'t upload';
-$lang['page_yes_upload'] = 'Yes, upload';
+$lang['page_yes_upload'] = 'Sim, enviar';
 $lang['page_information'] = 'Page Information';
 $lang['page_layout_vars'] = 'Layout Variables';
 
@@ -224,7 +224,7 @@ $lang['pages_instructions'] = 'Here you can manage the data associated with the 
 $lang['pages_associated_navigation'] = 'Associated Navigation';
 $lang['pages_success_upload'] = 'The page view was successfully uploaded.';
 $lang['pages_upload_instructions'] = 'Select a view file and upload to a page below.';
-$lang['pages_select_action'] = 'Select';
+$lang['pages_select_action'] = 'Seleccione';
 
 // page specific form fields
 $lang['form_label_layout'] = 'Layout';
@@ -235,7 +235,7 @@ $lang['pages_not_published'] = 'This page is not published.';
 $lang['pages_default_location'] = 'example: company/about';
 
 $lang['form_label_page'] = 'Página';
-$lang['form_label_target'] = 'Target';
+$lang['form_label_target'] = 'Destino';
 $lang['form_label_class'] = 'Classe';
 
 $lang['navigation_related'] = 'Create navigation';
@@ -249,7 +249,7 @@ $lang['blocks_updated_view'] = 'There is an updated view file located at <strong
 $lang['blocks_success_upload'] = 'The block view was successfully uploaded.';
 $lang['blocks_upload_instructions'] = 'Select a block view file and upload it below.';
 
-$lang['form_label_view'] = 'View';
+$lang['form_label_view'] = 'Ver';
 
 /*
 |--------------------------------------------------------------------------
@@ -263,12 +263,12 @@ $lang['navigation_success_upload'] = 'The navigation was successfully uploaded.'
 $lang['form_label_navigation_group'] = 'Navigation Group:';
 $lang['form_label_nav_key'] = 'Nav Key';
 $lang['form_label_parent_id'] = 'Parent';
-$lang['form_label_attributes'] = 'Attributes';
-$lang['form_label_selected'] = 'Selected';
+$lang['form_label_attributes'] = 'Atributos';
+$lang['form_label_selected'] = 'Seleccionado';
 $lang['form_label_hidden'] = 'Escondido';
 
 // for upload form
-$lang['form_label_clear_first'] = 'Clear First';
+$lang['form_label_clear_first'] = 'Limpar Primeiro';
 
 
 /*
@@ -294,8 +294,8 @@ $lang['form_label_alt'] = 'Alt';
 $lang['form_label_align'] = 'Align';
 $lang['form_label_master_dim'] = 'Master dimension';
 $lang['form_label_unzip'] = 'Unzip zip files';
-$lang['assets_upload_action'] = 'Upload';
-$lang['assets_select_action'] = 'Select';
+$lang['assets_upload_action'] = 'Enviar';
+$lang['assets_select_action'] = 'Seleccionar';
 $lang['assets_comment_asset_folder'] = 'The asset folder that it will be uploaded to';
 $lang['assets_comment_filename'] = 'If no name is provided, the filename that already exists will be used.';
 $lang['assets_comment_subfolder'] = 'Will attempt to create a new subfolder to place your asset.';
@@ -324,14 +324,14 @@ $lang['sitevariables_scope'] = 'Scope';
 |--------------------------------------------------------------------------
 */
 $lang['users_instructions'] = 'Here you can manage the data for users.';
-$lang['permissions_heading'] = 'Permissions';
+$lang['permissions_heading'] = 'Permissões';
 $lang['form_label_language'] = 'Idioma';
-$lang['form_label_send_email'] = 'Send Email';
-$lang['btn_send_email'] = 'Send Email';
+$lang['form_label_send_email'] = 'Enviar Email';
+$lang['btn_send_email'] = 'Enviar Email';
 $lang['new_user_email_subject'] = 'Your FUEL CMS account has been created';
 $lang['new_user_email'] = 'Your FUEL CMS account has been created. You can login with the following information:
 Login URL:'.site_url('fuel/login').'
-User name: %1s
+Nome de Utilizador: %1s
 Password: %2s';
 $lang['new_user_created_notification'] = 'The user information was successfully saved and a notification was sent to %1s.';
 $lang['error_cannot_deactivate_yourself'] = 'You cannot deactivate yourself.';
@@ -350,9 +350,9 @@ $lang['permissions_instructions'] = 'Here you can manage the permissions for FUE
 | Manage Cache
 |--------------------------------------------------------------------------
 */
-$lang['cache_cleared'] = 'The cache has been cleared.';
+$lang['cache_cleared'] = 'A cache foi limpa.';
 $lang['cache_instructions'] = 'You are about to clear the page cache of the site.';
-$lang['cache_no_clear'] = 'No, don\'t clear cache';
+$lang['cache_no_clear'] = 'Não, não impar a cache';
 $lang['cache_yes_clear'] = 'Sim, limpar cache';
 
 
@@ -372,7 +372,7 @@ $lang['settings_problem'] = 'There was a problem with the settings for the advan
 |--------------------------------------------------------------------------
 */
 $lang['error_not_cli_request'] = 'This is not a CLI request.';
-$lang['error_not_in_dev_mode'] = 'This will only run in dev mode.';
+$lang['error_not_in_dev_mode'] = 'Isto não vai executar em modo dev.';
 $lang['error_missing_generation_files'] = 'There are no generation files to create for %1s.';
 
 
@@ -393,13 +393,13 @@ $lang['table_action_login_as'] = 'LOGIN AS';
 | Labels
 |--------------------------------------------------------------------------
 */
-$lang['label_show'] = 'Show:';
+$lang['label_show'] = 'Mostrar:';
 $lang['label_language'] = 'Idioma:';
-$lang['label_restore_from_prev'] = 'Restore from previous version...';
-$lang['label_select_another'] = 'Select another...';
-$lang['label_select_one'] = 'Select one...';
-$lang['label_belongs_to'] = 'Belongs to';
-$lang['label_select_a_language'] = 'Select a language...';
+$lang['label_restore_from_prev'] = 'Restaurar uma versão anterior...';
+$lang['label_select_another'] = 'Seleccione outro...';
+$lang['label_select_one'] = 'Seleccione um...';
+$lang['label_belongs_to'] = 'Pertence a';
+$lang['label_select_a_language'] = 'Seleccione o idioma...';
 
 
 /*
@@ -407,32 +407,32 @@ $lang['label_select_a_language'] = 'Select a language...';
 | Buttons
 |--------------------------------------------------------------------------
 */
-$lang['btn_list'] = 'List';
-$lang['btn_tree'] = 'Tree';
-$lang['btn_create'] = 'Create';
-$lang['btn_delete_multiple'] = 'Delete Multiple';
-$lang['btn_rearrange'] = 'Rearrange';
-$lang['btn_search'] = 'Search';
-$lang['btn_view'] = 'View';
-$lang['btn_publish'] = 'Publish';
-$lang['btn_unpublish'] = 'Unpublish';
-$lang['btn_activate'] = 'Activate';
-$lang['btn_deactivate'] = 'Deactivate';
+$lang['btn_list'] = 'Lista';
+$lang['btn_tree'] = 'Árvore';
+$lang['btn_create'] = 'Criar';
+$lang['btn_delete_multiple'] = 'Eliminar Multiplos';
+$lang['btn_rearrange'] = 'Rearranjar';
+$lang['btn_search'] = 'Pesquisar';
+$lang['btn_view'] = 'Ver';
+$lang['btn_publish'] = 'Publicar';
+$lang['btn_unpublish'] = 'Despublicar';
+$lang['btn_activate'] = 'Activar';
+$lang['btn_deactivate'] = 'Desactivar';
 $lang['btn_delete'] = 'Apagar';
-$lang['btn_duplicate'] = 'Duplicate';
-$lang['btn_replace'] = 'Replace';
+$lang['btn_duplicate'] = 'Duplicar';
+$lang['btn_replace'] = 'Substituir';
 $lang['btn_ok'] = 'OK';
-$lang['btn_upload'] = 'Upload';
-$lang['btn_export_data'] = 'Export Data';
+$lang['btn_upload'] = 'Enviar';
+$lang['btn_export_data'] = 'Exportar Dados';
 
 $lang['btn_no'] = 'Não';
 $lang['btn_yes'] = 'Sim';
 
-$lang['btn_no_upload'] = 'No, don\'t upload it';
-$lang['btn_yes_upload'] = 'Yes, upload it';
+$lang['btn_no_upload'] = 'Não, não enviar';
+$lang['btn_yes_upload'] = 'Sim, enviar';
 
-$lang['btn_no_dont_delete'] = 'No, don\'t delete it';
-$lang['btn_yes_dont_delete'] = 'Yes,  delete it';
+$lang['btn_no_dont_delete'] = 'Não, não eliminar';
+$lang['btn_yes_dont_delete'] = 'Sim,  eliminar';
 
 
 /*
@@ -440,32 +440,32 @@ $lang['btn_yes_dont_delete'] = 'Yes,  delete it';
 | Common Form Labels
 |--------------------------------------------------------------------------
 */
-$lang['form_label_name'] = 'Name';
-$lang['form_label_title'] = 'Title';
+$lang['form_label_name'] = 'Nome';
+$lang['form_label_title'] = 'Tĩtulo';
 $lang['form_label_label'] = 'Label';
-$lang['form_label_location'] = 'Location';
-$lang['form_label_published'] = 'Published';
-$lang['form_label_active'] = 'Active';
+$lang['form_label_location'] = 'Localização';
+$lang['form_label_published'] = 'Publicado';
+$lang['form_label_active'] = 'Activo';
 $lang['form_label_precedence'] = 'Precedence';
 $lang['form_label_date_added'] = 'Date added';
 $lang['form_label_last_updated'] = 'Last updated';
-$lang['form_label_file'] = 'File';
+$lang['form_label_file'] = 'Ficheiro';
 $lang['form_label_value'] = 'Valor';
 $lang['form_label_email'] = 'Email';
-$lang['form_label_user_name'] = 'User name';
-$lang['form_label_first_name'] = 'First name';
-$lang['form_label_last_name'] = 'Last name';
+$lang['form_label_user_name'] = 'Nome do Utilizador';
+$lang['form_label_first_name'] = 'Primeiro nome';
+$lang['form_label_last_name'] = 'Último Nome';
 $lang['form_label_super_admin'] = 'Super admin';
 $lang['form_label_password'] = 'Password';
-$lang['form_label_confirm_password'] = 'Confirm password';
-$lang['form_label_new_password'] = 'New password';
-$lang['form_label_description'] = 'Description';
+$lang['form_label_confirm_password'] = 'Confirme a password';
+$lang['form_label_new_password'] = 'Nova password';
+$lang['form_label_description'] = 'Descrição';
 $lang['form_label_entry_date'] = 'Entry date';
-$lang['form_label_message'] = 'Message';
-$lang['form_label_image'] = 'Image';
-$lang['form_label_upload_image'] = 'Upload image';
-$lang['form_label_upload_images'] = 'Upload images';
-$lang['form_label_content'] = 'Content';
+$lang['form_label_message'] = 'Mensagem';
+$lang['form_label_image'] = 'Imagem';
+$lang['form_label_upload_image'] = 'Enviar imagem';
+$lang['form_label_upload_images'] = 'Enviar imagens';
+$lang['form_label_content'] = 'Conteúdo';
 $lang['form_label_excerpt'] = 'Excerpt';
 $lang['form_label_permalink'] = 'Permalink';
 $lang['form_label_slug'] = 'Slug';
@@ -473,13 +473,13 @@ $lang['form_label_url'] = 'URL';
 $lang['form_label_link'] = 'Link';
 $lang['form_label_pdf'] = 'PDF';
 
-$lang['form_label_group_id'] = 'Group';
-$lang['form_label_or_select'] = 'OR select';
+$lang['form_label_group_id'] = 'Grupo';
+$lang['form_label_or_select'] = 'OU seleccione';
 
 $lang['form_enum_option_yes'] = 'sim';
 $lang['form_enum_option_no'] = 'não';
 
-$lang['required_text'] = 'required fields';
+$lang['required_text'] = 'campos obrigatórios';
 
 
 /*
@@ -488,14 +488,14 @@ $lang['required_text'] = 'required fields';
 |--------------------------------------------------------------------------
 */
 $lang['layout_field_main_copy'] = 'This is the main layout to be used for your site.';
-$lang['layout_field_page_title'] = 'Page title';
+$lang['layout_field_page_title'] = 'Título da Página';
 $lang['layout_field_meta_description'] = 'Meta description';
 $lang['layout_field_meta_keywords'] = 'Meta keywords';
 $lang['layout_field_body'] = 'Body';
 $lang['layout_field_heading'] = 'Heading';
 $lang['layout_field_body_description'] = 'Main content of the page';
 $lang['layout_field_body_class'] = 'Body class';
-$lang['layout_field_redirect_to'] = 'Redirect to';
+$lang['layout_field_redirect_to'] = 'Redireccionar para';
 
 $lang['layout_field_301_redirect_copy'] = 'This layout will do a 301 redirect to another page.';
 $lang['layout_field_alias_copy'] = 'This layout is similar to a 301 redirect but the location of the page does not change and <br />the page content from the specifiec location is used to render the page.';
@@ -503,13 +503,13 @@ $lang['layout_field_sitemap_xml_copy'] = 'This layout is used to generate a site
 $lang['layout_field_robots_txt_copy'] = 'This layout is used to generate a robots.txt file. For this page to appear, a robots.txt must not exist on the server.';
 $lang['layout_field_none_copy'] = 'This layout is the equivalent of having no layout assigned.';
 
-$lang['layout_field_frequency'] = 'Frequency';
-$lang['layout_field_frequency_always'] = 'always';
-$lang['layout_field_frequency_hourly'] = 'hourly';
-$lang['layout_field_frequency_daily'] = 'daily';
-$lang['layout_field_frequency_weekly'] = 'weekly';
-$lang['layout_field_frequency_monthly'] = 'monthly';
-$lang['layout_field_frequency_yearly'] = 'yearly';
+$lang['layout_field_frequency'] = 'Frequência';
+$lang['layout_field_frequency_always'] = 'sempre';
+$lang['layout_field_frequency_hourly'] = 'hora a hora';
+$lang['layout_field_frequency_daily'] = 'diário';
+$lang['layout_field_frequency_weekly'] = 'semnalmente';
+$lang['layout_field_frequency_monthly'] = 'mensalmente';
+$lang['layout_field_frequency_yearly'] = 'anualmente';
 $lang['layout_field_frequency_never'] = 'nunca';
 
 
@@ -518,7 +518,7 @@ $lang['layout_field_frequency_never'] = 'nunca';
 | Tooltips
 |--------------------------------------------------------------------------
 */
-$lang['tooltip_dbl_click_to_open'] = 'Double click to open';
+$lang['tooltip_dbl_click_to_open'] = 'Duplo click para abrir';
 
 
 /*
@@ -529,8 +529,8 @@ $lang['tooltip_dbl_click_to_open'] = 'Double click to open';
 
 $lang['pagination_prev_page'] = '&lt;';
 $lang['pagination_next_page'] = '&gt;';
-$lang['pagination_first_link'] = '&lsaquo; First';
-$lang['pagination_last_link'] = 'Last &rsaquo;';
+$lang['pagination_first_link'] = '&lsaquo; Primeiro';
+$lang['pagination_last_link'] = 'Último &rsaquo;';
 
 
 /*
@@ -539,10 +539,10 @@ $lang['pagination_last_link'] = 'Last &rsaquo;';
 |--------------------------------------------------------------------------
 */
 $lang['action_edit'] = 'Editar';
-$lang['action_create'] = 'Create';
-$lang['action_delete'] = 'Delete';
-$lang['action_upload'] = 'Upload';
-$lang['action_replace'] = 'Replace';
+$lang['action_create'] = 'Criar';
+$lang['action_delete'] = 'Eliminar';
+$lang['action_upload'] = 'Enviar';
+$lang['action_replace'] = 'Substituir';
 
 //$lang['import'] = 'Import';
 
