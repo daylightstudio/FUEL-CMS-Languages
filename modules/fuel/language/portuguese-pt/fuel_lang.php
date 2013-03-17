@@ -18,37 +18,37 @@ $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. Todos os Direit
 |--------------------------------------------------------------------------
 */
 $lang['error_no_access'] = "Não tem acesso a esta página.";
-$lang['error_missing_module'] = "You are missing the module %1s.";
+$lang['error_missing_module'] = "Está faltando o módulo %1s.";
 $lang['error_invalid_login'] = 'Utilizador Inválido.';
-$lang['error_max_attempts'] = 'Sorry, but your login information was incorrect and you are temporarily locked out. Please try again in %s seconds.';
-$lang['error_empty_user_pwd'] = 'Please enter in a user name and password.';
-$lang['error_pwd_reset'] = 'There was an error in resetting your password.';
-$lang['error_invalid_email'] = 'The email address provided was not in the system.';
-$lang['error_invalid_password_match'] = 'The passwords don\'t match.';
-$lang['error_empty_email'] = 'Please enter in an email address.';
-$lang['error_folder_not_writable'] = 'You must make the  %1s folder writable.';
-$lang['error_invalid_folder'] = 'Invalid folder %1s';
-$lang['error_file_already_exists'] = 'File %1s already exists.';
-$lang['error_zip'] = 'There was an error creating the zipped file.';
-$lang['error_no_permissions'] = 'You do not have permissions to complete this action.';
-$lang['error_no_lib_permissions'] = 'You do not have permission to execute methods on the %1s class.';
-$lang['error_page_layout_variable_conflict'] = 'There is an error with this layout because it either doesn\'t exist or contains one or more of the following reserved words: %1s';
-$lang['error_no_curl_lib'] = 'You must have the curl php extension to use these tools.';
-$lang['error_inline_page_edit'] = 'This variable must either be saved in the admin or edited in the associated views/_variables file.';
-$lang['error_saving'] = 'There was an error saving.';
-$lang['error_cannot_preview'] = 'There was an error in trying to preview this page.';
-$lang['error_cannot_make_api_call'] = 'There was an error making the API call to %1s.';
-$lang['error_sending_email'] = 'There was an error sending an email to %1s.';
-$lang['error_upload'] = 'There was an error uploading the your file.';
-$lang['error_create_nav_group'] = 'Please create a Navigation Group';
-$lang['error_requires_string_value'] = 'The name field should be a string value';
-$lang['error_missing_params'] = 'You are missing parameters to view this page';
-$lang['error_invalid_method'] = 'Invalid method name';
-$lang['error_curl_page'] = 'Error loading page with CURL';
-$lang['error_class_property_does_not_exist'] = 'Class property %1s does not exist';
-$lang['error_class_method_does_not_exist'] = 'Class method %1s does not exist';
-$lang['error_could_not_create_folder'] = 'Could not create folder %1s';
-$lang['error_could_not_create_file'] = 'Could not create file %1s';
+$lang['error_max_attempts'] = 'Desculpe, mas a informação de login estava incorreta e a conta está temporariamente bloqueado. Por favor tente novamente em %s segundos.';
+$lang['error_empty_user_pwd'] = 'Por favor insira o nome de Utilizador e password.';
+$lang['error_pwd_reset'] = 'Houve um erro ao fazer reset é password.';
+$lang['error_invalid_email'] = 'O endereço de email indicado não está no sistema.';
+$lang['error_invalid_password_match'] = 'As passwords não coincidem.';
+$lang['error_empty_email'] = 'Por favor, insira um endereço de email.';
+$lang['error_folder_not_writable'] = 'Deve conceder ao diretório %1s permissões de escrita.';
+$lang['error_invalid_folder'] = ' O diretório %1s é inválido';
+$lang['error_file_already_exists'] = 'O ficheiro %1s já existe.';
+$lang['error_zip'] = 'Ocorreu um erro ao criar o ficheiro zip.';
+$lang['error_no_permissions'] = 'Não tem permissões para concluir esta acção.';
+$lang['error_no_lib_permissions'] = 'Não tem permissões para executar métodos da classe %1s.';
+$lang['error_page_layout_variable_conflict'] = 'Ocorreu um erro com este layout , ou este não existe ou contém uma ou mais palavras reservadas: %1s';
+$lang['error_no_curl_lib'] = 'Tem de ter a extensão curl php para usar estas ferramentas.';
+$lang['error_inline_page_edit'] = 'Esta variável deve ser gravada como admin ou editada em associação com o ficheiro views/_variables.';
+$lang['error_saving'] = 'Ocorreu um erro ao gravar.';
+$lang['error_cannot_preview'] = 'Ocorreu um erro ao tentar pré-visualizar esta página.';
+$lang['error_cannot_make_api_call'] = 'ocorreu um erro ao fazer a chamada da API para %1s.';
+$lang['error_sending_email'] = 'ocorreu um erro ao enviar um email para %1s.';
+$lang['error_upload'] = 'Ocorreu um erro ao enviar o ficheiro.';
+$lang['error_create_nav_group'] = 'Por favor, crie um Grupo de Navegação';
+$lang['error_requires_string_value'] = 'O nome do campo deve ser um valor string.';
+$lang['error_missing_params'] = 'Faltam parâmetros para visualizar esta página';
+$lang['error_invalid_method'] = 'Nome do método inválido';
+$lang['error_curl_page'] = 'Erro ao carregar página com CURL';
+$lang['error_class_property_does_not_exist'] = 'A Propriedade da Classe %1s não existe';
+$lang['error_class_method_does_not_exist'] = 'O Método da Classe %1s não existe';
+$lang['error_could_not_create_folder'] = 'Não é possivel criar diretório %1s';
+$lang['error_could_not_create_file'] = 'Não é possivel criar ficheiro %1s';
 
 
 /*
@@ -56,9 +56,9 @@ $lang['error_could_not_create_file'] = 'Could not create file %1s';
 | Warnings
 |--------------------------------------------------------------------------
 */
-$lang['warn_change_default_pwd'] = '<strong>It is highly recommend that you change your password from the default of <em>%1s</em></strong>.';
-$lang['warn_not_published'] = 'This item is not published.';
-$lang['warn_not_active'] = 'This %1s is not active.';
+$lang['warn_change_default_pwd'] = '<strong>É recomendado que altere a password por defeito de <em>%1s</em></strong>.';
+$lang['warn_not_published'] = 'Este item não está publicado.';
+$lang['warn_not_active'] = '%1s não está ativo.';
 
 
 /*
@@ -66,13 +66,13 @@ $lang['warn_not_active'] = 'This %1s is not active.';
 | Login
 |--------------------------------------------------------------------------
 */
-$lang['logged_in'] = "%s logged in";
-$lang['logged_out'] = "%s logged out";
-$lang['dev_pwd_instructions'] = 'This site is currently in development and requires a password to view.';
-$lang['login_forgot_pwd'] = 'Forgot password?';
+$lang['logged_in'] = "%s entrou";
+$lang['logged_out'] = "%s saiu";
+$lang['dev_pwd_instructions'] = 'Este Website está em desenvolvimento e requer uma password para visualizar.';
+$lang['login_forgot_pwd'] = 'Esqueceu a password?';
 $lang['login_reset_pwd'] = 'Reset à Password';
-$lang['login_btn'] = 'Login';
-$lang['logout_restore_original_user'] = 'Restore original user';
+$lang['login_btn'] = 'Entrar';
+$lang['logout_restore_original_user'] = 'Restaurar utilizador original';
 
 
 /*
@@ -80,17 +80,17 @@ $lang['logout_restore_original_user'] = 'Restore original user';
 | Dashboard
 |--------------------------------------------------------------------------
 */
-$lang['section_dashboard'] = 'Dashboard';
+$lang['section_dashboard'] = 'Painel';
 $lang['dashboard_intro'] = 'Bem-Vindo ao FUEL CMS.';
-$lang['dashboard_hdr_latest_activity'] = 'Latest Activity';
-$lang['dashboard_hdr_latest_news'] = 'Latest FUEL News';
-$lang['dashboard_hdr_modified'] = 'Recently Modified Pages';
-$lang['dashboard_hdr_site_docs'] = 'Site Documentation';
+$lang['dashboard_hdr_latest_activity'] = 'Últimas Atividades';
+$lang['dashboard_hdr_latest_news'] = 'Últimas notícias do FUEL';
+$lang['dashboard_hdr_modified'] = 'Páginas Recentemente Modificadas';
+$lang['dashboard_hdr_site_docs'] = 'Documentação';
 $lang['dashboard_change_pwd'] = 'Alterar password';
-$lang['dashboard_change_pwd_later'] = 'I\'ll change my password later';
-$lang['dashboard_subscribe_rss'] = 'Subscribe to the RSS Feed';
+$lang['dashboard_change_pwd_later'] = 'Mudo a minha password mais tarde';
+$lang['dashboard_subscribe_rss'] = 'Subscrever RSS';
 $lang['dashboard_view_all_pages'] = 'Ver todas as páginas';
-$lang['dashboard_view_all_activity'] = 'View all activity';
+$lang['dashboard_view_all_activity'] = 'Ver todas as atividades';
 
 
 /*
@@ -99,7 +99,7 @@ $lang['dashboard_view_all_activity'] = 'View all activity';
 |--------------------------------------------------------------------------
 */
 $lang['section_my_profile'] = 'O Meu Perfil';
-$lang['profile_instructions'] = 'Change your profile information below:';
+$lang['profile_instructions'] = 'Alterar a informação de perfil:';
 
 
 /*
@@ -115,13 +115,13 @@ $lang['section_my_modules'] = 'Os Meus Módulos';
 | Login/Password Reset
 |--------------------------------------------------------------------------
 */
-$lang['pwd_reset'] = 'An email to confirm your password reset is on its way.';
-$lang['pwd_reset_subject'] = "FUEL admin password reset request";
-$lang['pwd_reset_email'] = "Click the following link to confirm the reset of your FUEL password:\n%1s";
-$lang['pwd_reset_subject_success'] = "FUEL admin password reset success";
-$lang['pwd_reset_email_success'] = "Your FUEL password has been reset to %1s. To change your password, login to the FUEL CMS admin with this password and click on your login name in the upper right to access your profile information.";
-$lang['pwd_reset_success'] = 'Your password was successfully reset and an email has been sent to you with the new password.';
-$lang['cache_cleared'] = "Site cache cleared explicitly";
+$lang['pwd_reset'] = 'Foi enviado um email para confirmar o reset á password.';
+$lang['pwd_reset_subject'] = "pedido de reset á password de Admin do FUEL";
+$lang['pwd_reset_email'] = "Click no seguinte link para confirmr o reset da sua password:\n%1s";
+$lang['pwd_reset_subject_success'] = "Reset da password de Admin do FUEL efetuada com sucesso";
+$lang['pwd_reset_email_success'] = "A password fi alterada para %1s. Para alterar a password, entre no FUEL CMS admin com esta password e click no nome de utilizador no campo superior direito para aceder á informação de perfil.";
+$lang['pwd_reset_success'] = 'A password foi alterada com sucesso e um email foi enviado com a nova password.';
+$lang['cache_cleared'] = "Cache do Website limpa.";
 
 
 /*
@@ -130,31 +130,31 @@ $lang['cache_cleared'] = "Site cache cleared explicitly";
 |--------------------------------------------------------------------------
 */
 
-$lang['module_dashboard'] = 'Dashboard';
+$lang['module_dashboard'] = 'Painel';
 $lang['module_pages'] = 'Páginas';
-$lang['module_blocks'] = 'Blocks';
-$lang['module_navigation'] = 'Navigation';
+$lang['module_blocks'] = 'Blocos';
+$lang['module_navigation'] = 'Navegação';
 $lang['module_categories'] = 'Categorias';
-$lang['module_tags'] = 'Tags';
-$lang['module_assets'] = 'Assets';
-$lang['module_sitevariables'] = 'Site Variables';
+$lang['module_tags'] = 'Etiquetas';
+$lang['module_assets'] = 'Anexos';
+$lang['module_sitevariables'] = 'Variáveis do Site';
 $lang['module_users'] = 'Utilizadores';
 $lang['module_permissions'] = 'Permissões';
-$lang['module_tools'] = 'Tools';
-$lang['module_manage_cache'] = 'Page Cache';
-$lang['module_manage_activity'] = 'Activity Log';
-$lang['module_manage_settings'] = 'Settings';
-$lang['module_generate'] = 'Generated';
+$lang['module_tools'] = 'Ferramentas';
+$lang['module_manage_cache'] = 'Cache de Página';
+$lang['module_manage_activity'] = 'Relatório de Atividade';
+$lang['module_manage_settings'] = 'Configurações';
+$lang['module_generate'] = 'Gerado';
 
 
 $lang['section_site'] = 'Site';
 $lang['section_blog'] = 'Blog';
 $lang['section_modules'] = 'Módulos';
 $lang['section_manage'] = 'Gerir';
-$lang['section_tools'] = 'Tools';
-$lang['section_settings'] = 'Settings';
-$lang['section_recently_viewed'] = 'Recently Viewed';
-$lang['section_settings'] = 'Settings';
+$lang['section_tools'] = 'Ferramentas';
+$lang['section_settings'] = 'Configurações';
+$lang['section_recently_viewed'] = 'Visualizado Recentemente';
+$lang['section_settings'] = 'Configurações';
 
 
 /*
@@ -162,36 +162,36 @@ $lang['section_settings'] = 'Settings';
 | Generic Module
 |--------------------------------------------------------------------------
 */
-$lang['module_created']= "%1s item <em>%2s</em> created";
-$lang['module_edited'] = "%1s item <em>%2s</em> edited";
-$lang['module_deleted'] = "%1s item for <em>%2s</em> deleted";
-$lang['module_multiple_deleted'] = "Multiple <em>%1s</em> deleted";
-$lang['module_restored'] = "%1s item restored from archive";
-$lang['module_instructions_default'] = "Here you can manage the %1s for your site.";
-$lang['module_restored_success'] = 'Previous version successfully restored.';
-$lang['module_replaced_success'] = 'The contents of this record were successfully replaced.';
-$lang['module_incompatible'] = 'The version of this module is not compatible with the install FUEL version of '.FUEL_VERSION;
+$lang['module_created']= "O item %1s <em>%2s</em>foi criado.";
+$lang['module_edited'] = "O item %1s item <em>%2s</em> foi editado.";
+$lang['module_deleted'] = "O item %1s <em>%2s</em> foi eliminado.";
+$lang['module_multiple_deleted'] = "Múltiplos <em>%1s</em> eliminados";
+$lang['module_restored'] = "O item %1s foi restaurado";
+$lang['module_instructions_default'] = "Aqui pode gerir o %1s para o seu site.";
+$lang['module_restored_success'] = 'Versão anterior restaurada com sucesso.';
+$lang['module_replaced_success'] = 'Os conteúdos deste registo foram subtituídos com sucesso.';
+$lang['module_incompatible'] = 'A versão deste módulo não é compativel com a versão do FUEL instalada'.FUEL_VERSION;
 
-$lang['cannot_determine_module'] = "Cannot determine module.";
-$lang['incorrect_route_to_module'] = "Incorrect route to access this module.";
-$lang['data_saved'] = 'Data has been saved.';
-$lang['data_deleted'] = 'Data has been deleted.';
-$lang['data_not_deleted'] = 'Some or all data couldn\'t be deleted.';
-$lang['no_data'] = 'No data to display.';
-$lang['no_preview_path'] = 'There is no preview path assigned to this module.';
-$lang['delete_item_message'] = 'You are about to delete the item:';
-$lang['replace_item_message'] = 'Select a record from the list below that you would like to replace. Replacing will transfer the data from one record to the other and then delete the old record.';
+$lang['cannot_determine_module'] = "Não é possivel determinar o módulo.";
+$lang['incorrect_route_to_module'] = "Caminho incorreto para aceder a este módulo.";
+$lang['data_saved'] = 'Os dados foram gravados.';
+$lang['data_deleted'] = 'Os dados foram eliminados.';
+$lang['data_not_deleted'] = 'Alguns ou todos os ddos não podeream ser eliminados.';
+$lang['no_data'] = 'Sem dados para visualizar.';
+$lang['no_preview_path'] = 'Não há caminho de visualização atribuído a este módulo.';
+$lang['delete_item_message'] = 'Está prestes a eliminar este item:';
+$lang['replace_item_message'] = 'Selecione um registro da lista abaixo que gostaria de substituir. A substituição irá transferir os dados de um registro para o outro e, em seguida, eliminar o registro antigo.';
 
 // command line
-$lang['module_install'] = "The '%1s' module has successfully been installed.\n";
-$lang['module_install_error'] = "There was an error installing the '%1s' module.\n";
+$lang['module_install'] = "O módulo '%1s' foi instalado com sucesso.\n";
+$lang['module_install_error'] = "Ocorreu um erro ao instalar o módulo '%1s'.\n";
 
-$msg = "The module %1s has been uninstalled in FUEL.\n\n";
-$msg .= "However, removing a module from GIT is a little more work that we haven't automated yet. However, the below steps should help.\n\n";
-$msg .= "1. Delete the relevant section from the .gitmodules file.\n";
-$msg .= "2. Delete the relevant section from .git/config.\n";
-$msg .= "3. Run git rm --cached %2s (no trailing slash).\n";
-$msg .= "4. Commit and delete the now untracked submodule files.\n";
+$msg = "O módulo %1s foi desinstalado do FUEL.\n\n";
+$msg .= "No entanto, a remoção de um módulo do GIT requer um pouco mais de trabalho que não temos ainda automatizado. Contudo, os passos abaixo devem ajudar.\n\n";
+$msg .= "1. Elimine a seção relevante do ficheiro .gitmodules.\n";
+$msg .= "2. Elimine a seção relevante do .git/config.\n";
+$msg .= "3. Execute git rm --cached %2s (sem barra).\n";
+$msg .= "4. Submeter e excluir os arquivos do submódulo agora não monitorados.\n";
 $lang['module_uninstall'] = $msg;
 
 
@@ -200,8 +200,8 @@ $lang['module_uninstall'] = $msg;
 | Migrations
 |--------------------------------------------------------------------------
 */
-$lang['migrate_success'] = "You have successfully migrated to version %s.\n";
-$lang['migrate_nothing_todo'] = "No migrations were necessary.\n";
+$lang['migrate_success'] = "Migrou de versão com sucesso %s.\n";
+$lang['migrate_nothing_todo'] = "Não foram necessárias migrações.\n";
 
 
 /*
