@@ -210,44 +210,44 @@ $lang['migrate_nothing_todo'] = "Não foram necessárias migrações.\n";
 |--------------------------------------------------------------------------
 */
 
-$lang['page_route_warning'] = 'The location specified has the following routes already specified in the routes file (%1s):';
-$lang['page_controller_assigned'] = 'There is a controller method already assigned to this page.';
-$lang['page_updated_view'] = 'There is an updated view file located at <strong>%1s</strong>. Would you like to upload it into the body of your page (if available)?';
-$lang['page_not_published'] = 'This page is not published.';
+$lang['page_route_warning'] = 'A localização especificada já tem a  respetiva rota especificada  no ficheiro de rotas (%1s):';
+$lang['page_controller_assigned'] = 'Já existe um método controlador designado a esta página.';
+$lang['page_updated_view'] = 'Existe um ficheiro de atualização da visualização em <strong>%1s</strong>. Quer enviar para o corpoda página (se disponível)?';
+$lang['page_not_published'] = 'Esta página não está publicada.';
 
-$lang['page_no_upload'] = 'No, don\'t upload';
-$lang['page_yes_upload'] = 'Sim, enviar';
-$lang['page_information'] = 'Page Information';
-$lang['page_layout_vars'] = 'Layout Variables';
+$lang['page_no_upload'] = 'Não, não enviar.';
+$lang['page_yes_upload'] = 'Sim, enviar.';
+$lang['page_information'] = 'Informação da Página';
+$lang['page_layout_vars'] = 'Variáveis do Layout';
 
-$lang['pages_instructions'] = 'Here you can manage the data associated with the page.';
-$lang['pages_associated_navigation'] = 'Associated Navigation';
-$lang['pages_success_upload'] = 'The page view was successfully uploaded.';
-$lang['pages_upload_instructions'] = 'Select a view file and upload to a page below.';
+$lang['pages_instructions'] = 'Aqui pode gerir os dados associados com a página.';
+$lang['pages_associated_navigation'] = 'Navegação associada';
+$lang['pages_success_upload'] = 'A página de visualização foi enviada com sucesso.';
+$lang['pages_upload_instructions'] = 'Selecione um ficheiro de visualização e envie para ver a página abaixo.';
 $lang['pages_select_action'] = 'Seleccione';
 
 // page specific form fields
 $lang['form_label_layout'] = 'Layout';
 $lang['form_label_cache'] = 'Cache';
-$lang['pages_last_updated'] = 'Last updated %1s';
-$lang['pages_last_updated_by'] = 'Last updated %1s by %2s';
-$lang['pages_not_published'] = 'This page is not published.';
-$lang['pages_default_location'] = 'example: company/about';
+$lang['pages_last_updated'] = 'Última atualização a %1s';
+$lang['pages_last_updated_by'] = 'Última atualização a %1s por %2s';
+$lang['pages_not_published'] = 'Esta página não está publicada.';
+$lang['pages_default_location'] = 'exemplo: empresa/sobre';
 
 $lang['form_label_page'] = 'Página';
 $lang['form_label_target'] = 'Destino';
 $lang['form_label_class'] = 'Classe';
 
-$lang['navigation_related'] = 'Create navigation';
+$lang['navigation_related'] = 'Criar navegação';
 
 /*
 |--------------------------------------------------------------------------
 | Blocks
 |--------------------------------------------------------------------------
 */
-$lang['blocks_updated_view'] = 'There is an updated view file located at <strong>%1s</strong>. Would you like to import?';
-$lang['blocks_success_upload'] = 'The block view was successfully uploaded.';
-$lang['blocks_upload_instructions'] = 'Select a block view file and upload it below.';
+$lang['blocks_updated_view'] = 'Existe um ficheiro de atualização da visualização em <strong>%1s</strong>. Quer importar?';
+$lang['blocks_success_upload'] = 'A visualizaão do bloco foi enviada com sucesso.';
+$lang['blocks_upload_instructions'] = 'Selecione um ficheiro de visualização do bloco e envie-o.';
 
 $lang['form_label_view'] = 'Ver';
 
@@ -256,13 +256,13 @@ $lang['form_label_view'] = 'Ver';
 | Navigation
 |--------------------------------------------------------------------------
 */
-$lang['navigation_import'] = 'Import Navigation';
-$lang['navigation_instructions'] = 'Here you create and edit the top menu items of the page.';
+$lang['navigation_import'] = 'Importar Navigação';
+$lang['navigation_instructions'] = 'Aqui pode criar e editar os itens do menu de topo da página.';
 $lang['navigation_import_instructions'] = 'Select a navigation group and upload a file to import below. The file should contain the PHP array variable assigned in the variable field below (e.g. <strong>$nav</strong>). For a reference of the array format, please consult the <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">user guide</a>.';
-$lang['navigation_success_upload'] = 'The navigation was successfully uploaded.';
-$lang['form_label_navigation_group'] = 'Navigation Group:';
-$lang['form_label_nav_key'] = 'Nav Key';
-$lang['form_label_parent_id'] = 'Parent';
+$lang['navigation_success_upload'] = 'A navegação foi enviada com sucesso.';
+$lang['form_label_navigation_group'] = 'Grupo de Navegação:';
+$lang['form_label_nav_key'] = 'Tecla de Navegação';
+$lang['form_label_parent_id'] = 'Parente';
 $lang['form_label_attributes'] = 'Atributos';
 $lang['form_label_selected'] = 'Seleccionado';
 $lang['form_label_hidden'] = 'Escondido';
@@ -276,46 +276,46 @@ $lang['form_label_clear_first'] = 'Limpar Primeiro';
 | Assets
 |--------------------------------------------------------------------------
 */
-$lang['assets_instructions'] = 'Here you can upload new assets. Select overwrite if you would like to overwrite a file with the same name.';
-$lang['form_label_preview/kb'] = 'Preview/kb';
+$lang['assets_instructions'] = 'Aqui pode enviar novos anexos. Selecione substituir se quiser substituir o ficheiro com o mesmo nome.';
+$lang['form_label_preview/kb'] = 'Pré-Visualizar/kb';
 $lang['form_label_link'] = 'Link';
-$lang['form_label_asset_folder'] = 'Asset folder';
-$lang['form_label_new_file_name'] = 'New file name';
-$lang['form_label_subfolder'] = 'Subfolder';
-$lang['form_label_overwrite'] = 'Overwrite';
-$lang['form_label_create_thumb'] = 'Create thumb';
-$lang['form_label_resize_method'] = 'Resize method';
-$lang['form_label_maintain_ratio'] = 'maintain ratio';
-$lang['form_label_resize_and_crop'] = 'crop if needed';
-$lang['form_label_overwrite'] = 'Overwrite';
-$lang['form_label_width'] = 'Width';
-$lang['form_label_height'] = 'Height';
+$lang['form_label_asset_folder'] = 'Diretório de Anexos';
+$lang['form_label_new_file_name'] = 'Nome do novo ficheiro';
+$lang['form_label_subfolder'] = 'Sub-Diretório';
+$lang['form_label_overwrite'] = 'Substituir';
+$lang['form_label_create_thumb'] = 'Criar miniatura';
+$lang['form_label_resize_method'] = 'Método de Redimensionamento';
+$lang['form_label_maintain_ratio'] = 'Manter as proporções';
+$lang['form_label_resize_and_crop'] = 'Cortar se necessário';
+$lang['form_label_overwrite'] = 'Sustituir';
+$lang['form_label_width'] = 'Largura';
+$lang['form_label_height'] = 'Altura';
 $lang['form_label_alt'] = 'Alt';
-$lang['form_label_align'] = 'Align';
-$lang['form_label_master_dim'] = 'Master dimension';
-$lang['form_label_unzip'] = 'Unzip zip files';
+$lang['form_label_align'] = 'Alinhar';
+$lang['form_label_master_dim'] = 'Dimensão Principal';
+$lang['form_label_unzip'] = 'Unzip ficheiros zip';
 $lang['assets_upload_action'] = 'Enviar';
-$lang['assets_select_action'] = 'Seleccionar';
-$lang['assets_comment_asset_folder'] = 'The asset folder that it will be uploaded to';
-$lang['assets_comment_filename'] = 'If no name is provided, the filename that already exists will be used.';
-$lang['assets_comment_subfolder'] = 'Will attempt to create a new subfolder to place your asset.';
-$lang['assets_comment_overwrite'] = 'Overwrite a file with the same name. If unchecked, a new file will be uploaded with a version number appended to the end of it.';
-$lang['assets_heading_general'] = 'General';
-$lang['assets_heading_image_specific'] = 'Image Specific';
-$lang['assets_comment_thumb'] = 'Create a thumbnail of the image.';
-$lang['assets_comment_resize_method'] = 'Maintains the aspect ratio or resizes and crops the image to fit the provided dimensions. If "Create thumbnail" is selected, it will only effect the size of the thumbnail.';
-$lang['assets_comment_width'] = 'Will change the width of an image to the desired amount. If "Create thumbnail" is selected, then it will only effect the size of the thumbnail.';
-$lang['assets_comment_height'] = 'Will change the height of an image to the desired amount. If "Create thumbnail" is selected, it will only effect the size of the thumbnail.';
-$lang['assets_comment_master_dim'] = 'Specifies the master dimension to use for resizing. If the source image size does not allow perfect resizing to those dimensions, this setting determines which axis should be used as the hard value. "auto" sets the axis automatically based on whether the image is taller then wider, or vice versa.';
-$lang['assets_comment_unzip'] = 'Unzips a zip file';
+$lang['assets_select_action'] = 'Selecionar';
+$lang['assets_comment_asset_folder'] = 'O diretório para onde o anexo será enviado';
+$lang['assets_comment_filename'] = 'Se nenhum nome for providenciado, será usado o nome do ficheiro que já existe.';
+$lang['assets_comment_subfolder'] = 'Tentar criar um sub-diretório para colocar os anexos.';
+$lang['assets_comment_overwrite'] = 'Substituir um ficheiro com o msmo nome. Se  desmarcado, o novo ficheiro será gravado com o número da versão no final do nome.';
+$lang['assets_heading_general'] = 'Geral';
+$lang['assets_heading_image_specific'] = 'Especificar Imagem';
+$lang['assets_comment_thumb'] = 'Criar uma miniatura da imagem.';
+$lang['assets_comment_resize_method'] = 'Manter as dimensões, redimensionar ou cortar a imagem para as dimensões providenciadas. Se "Criar Miniaturas" estiver selecionada, vai apenas afetar o tamanho das miniaturas.';
+$lang['assets_comment_width'] = 'Mudará a largura da imagem para o valor desejado. Se "Criar miniaturas" estiver selecionada, vai apenas afetar a largura das miniaturas.';
+$lang['assets_comment_height'] = 'Mudará a altura da imagem para o valor desejado. Se "Criar miniaturas" estiver selecionada, vai apenas afetar a altura das miniaturas.';
+$lang['assets_comment_master_dim'] = 'Especifica a dimensão principal para usar no redimensionamento. Se a imagem original não permitir o redimensionamento perfeito para estas dimensões, este ajuste determina qual o eixo que deve ser utilizado como valor obrigatório. "auto" define o eixo automaticamente com base em se a imagem é mais alta do que larga, ou vice-versa.';
+$lang['assets_comment_unzip'] = 'Unzips um ficheiro zip';
 
 /*
 |--------------------------------------------------------------------------
 | Site Variables
 |--------------------------------------------------------------------------
 */
-$lang['sitevariables_instructions'] = 'Here you can manage the site variables for your website.';
-$lang['sitevariables_scope'] = 'Scope';
+$lang['sitevariables_instructions'] = 'Aqui pode gerir as variaveis do Website.';
+$lang['sitevariables_scope'] = 'Âmbito';
 
 
 /*
@@ -323,18 +323,18 @@ $lang['sitevariables_scope'] = 'Scope';
 | Users
 |--------------------------------------------------------------------------
 */
-$lang['users_instructions'] = 'Here you can manage the data for users.';
+$lang['users_instructions'] = 'Aqui pode gerir os dados dos uilizadores.';
 $lang['permissions_heading'] = 'Permissões';
 $lang['form_label_language'] = 'Idioma';
 $lang['form_label_send_email'] = 'Enviar Email';
 $lang['btn_send_email'] = 'Enviar Email';
-$lang['new_user_email_subject'] = 'Your FUEL CMS account has been created';
-$lang['new_user_email'] = 'Your FUEL CMS account has been created. You can login with the following information:
+$lang['new_user_email_subject'] = 'A sua conta FUEL CMS foi criada';
+$lang['new_user_email'] = 'A sua conta FUEL CMS foi criada. Pode fazer login com a seguinte informação:
 Login URL:'.site_url('fuel/login').'
 Nome de Utilizador: %1s
 Password: %2s';
-$lang['new_user_created_notification'] = 'The user information was successfully saved and a notification was sent to %1s.';
-$lang['error_cannot_deactivate_yourself'] = 'You cannot deactivate yourself.';
+$lang['new_user_created_notification'] = 'A informação de utilizador foi gravada com sucesso e uma notificação foi enviada para %1s.';
+$lang['error_cannot_deactivate_yourself'] = 'Não pode desativar-se a si mesmo.';
 
 
 /*
@@ -342,7 +342,7 @@ $lang['error_cannot_deactivate_yourself'] = 'You cannot deactivate yourself.';
 | Permissions
 |--------------------------------------------------------------------------
 */
-$lang['permissions_instructions'] = 'Here you can manage the permissions for FUEL modules and later assign them to users.';
+$lang['permissions_instructions'] = 'Aqui pode gerir as permissões para os módulos do FUEL e depois atribui-las aos utilizadores.';
 
 
 /*
@@ -351,7 +351,7 @@ $lang['permissions_instructions'] = 'Here you can manage the permissions for FUE
 |--------------------------------------------------------------------------
 */
 $lang['cache_cleared'] = 'A cache foi limpa.';
-$lang['cache_instructions'] = 'You are about to clear the page cache of the site.';
+$lang['cache_instructions'] = 'Vai limpar a cache de páginas do Website.';
 $lang['cache_no_clear'] = 'Não, não impar a cache';
 $lang['cache_yes_clear'] = 'Sim, limpar cache';
 
@@ -361,9 +361,9 @@ $lang['cache_yes_clear'] = 'Sim, limpar cache';
 | Settings
 |--------------------------------------------------------------------------
 */
-$lang['settings_none'] = 'There are no settings for any advanced modules to manage.';
-$lang['settings_manage'] = 'Manage the settings for the following advanced modules:';
-$lang['settings_problem'] = 'There was a problem with the settings for the advanced module <strong>%1s</strong>. <br />Check that <strong>/fuel/modules/%1s/config/%1s.php</strong> config is configured to handle settings.';
+$lang['settings_none'] = 'Não existem definições de módulos avançados para gerir.';
+$lang['settings_manage'] = 'Gerir as definições dos seguintes módulos avançados:';
+$lang['settings_problem'] = 'Existe um problema com as definições para o módulo avançado <strong>%1s</strong>. <br />Check that <strong>/fuel/modules/%1s/config/%1s.php</strong> config is configured to handle settings.';
 
 
 /*
@@ -371,9 +371,9 @@ $lang['settings_problem'] = 'There was a problem with the settings for the advan
 | Generate
 |--------------------------------------------------------------------------
 */
-$lang['error_not_cli_request'] = 'This is not a CLI request.';
+$lang['error_not_cli_request'] = 'Este não é um pedido CLI.';
 $lang['error_not_in_dev_mode'] = 'Isto não vai executar em modo dev.';
-$lang['error_missing_generation_files'] = 'There are no generation files to create for %1s.';
+$lang['error_missing_generation_files'] = 'Não existem ficheiros de produção para criar %1s.';
 
 
 /*
@@ -384,7 +384,7 @@ $lang['error_missing_generation_files'] = 'There are no generation files to crea
 $lang['table_action_edit'] = 'EDITAR';
 $lang['table_action_delete'] = 'APAGAR';
 $lang['table_action_view'] = 'VER';
-$lang['click_to_toggle'] = 'click to toggle';
+$lang['click_to_toggle'] = 'click para mudar';
 $lang['table_action_login_as'] = 'LOGIN AS';
 
 
@@ -442,13 +442,13 @@ $lang['btn_yes_dont_delete'] = 'Sim,  eliminar';
 */
 $lang['form_label_name'] = 'Nome';
 $lang['form_label_title'] = 'Tĩtulo';
-$lang['form_label_label'] = 'Label';
+$lang['form_label_label'] = 'Etiqueta';
 $lang['form_label_location'] = 'Localização';
 $lang['form_label_published'] = 'Publicado';
 $lang['form_label_active'] = 'Activo';
 $lang['form_label_precedence'] = 'Precedence';
-$lang['form_label_date_added'] = 'Date added';
-$lang['form_label_last_updated'] = 'Last updated';
+$lang['form_label_date_added'] = 'Adicionado em';
+$lang['form_label_last_updated'] = 'Última atualização a ';
 $lang['form_label_file'] = 'Ficheiro';
 $lang['form_label_value'] = 'Valor';
 $lang['form_label_email'] = 'Email';
@@ -460,14 +460,14 @@ $lang['form_label_password'] = 'Password';
 $lang['form_label_confirm_password'] = 'Confirme a password';
 $lang['form_label_new_password'] = 'Nova password';
 $lang['form_label_description'] = 'Descrição';
-$lang['form_label_entry_date'] = 'Entry date';
+$lang['form_label_entry_date'] = 'Data de entrada';
 $lang['form_label_message'] = 'Mensagem';
 $lang['form_label_image'] = 'Imagem';
 $lang['form_label_upload_image'] = 'Enviar imagem';
 $lang['form_label_upload_images'] = 'Enviar imagens';
 $lang['form_label_content'] = 'Conteúdo';
-$lang['form_label_excerpt'] = 'Excerpt';
-$lang['form_label_permalink'] = 'Permalink';
+$lang['form_label_excerpt'] = 'Excerto';
+$lang['form_label_permalink'] = 'Link permanente';
 $lang['form_label_slug'] = 'Slug';
 $lang['form_label_url'] = 'URL';
 $lang['form_label_link'] = 'Link';
@@ -476,10 +476,10 @@ $lang['form_label_pdf'] = 'PDF';
 $lang['form_label_group_id'] = 'Grupo';
 $lang['form_label_or_select'] = 'OU seleccione';
 
-$lang['form_enum_option_yes'] = 'sim';
-$lang['form_enum_option_no'] = 'não';
+$lang['form_enum_option_yes'] = 'Sim';
+$lang['form_enum_option_no'] = 'Não';
 
-$lang['required_text'] = 'campos obrigatórios';
+$lang['required_text'] = 'Campos obrigatórios.';
 
 
 /*
@@ -487,27 +487,27 @@ $lang['required_text'] = 'campos obrigatórios';
 | Layouts
 |--------------------------------------------------------------------------
 */
-$lang['layout_field_main_copy'] = 'This is the main layout to be used for your site.';
+$lang['layout_field_main_copy'] = 'Este é o layout principal a ser usado no Website.';
 $lang['layout_field_page_title'] = 'Título da Página';
-$lang['layout_field_meta_description'] = 'Meta description';
-$lang['layout_field_meta_keywords'] = 'Meta keywords';
-$lang['layout_field_body'] = 'Body';
-$lang['layout_field_heading'] = 'Heading';
-$lang['layout_field_body_description'] = 'Main content of the page';
-$lang['layout_field_body_class'] = 'Body class';
+$lang['layout_field_meta_description'] = 'Descrição';
+$lang['layout_field_meta_keywords'] = 'Palavras-Chave';
+$lang['layout_field_body'] = 'Corpo';
+$lang['layout_field_heading'] = 'Cabeçalho';
+$lang['layout_field_body_description'] = 'Conteúdo principal da página';
+$lang['layout_field_body_class'] = 'Classe do Corpo';
 $lang['layout_field_redirect_to'] = 'Redireccionar para';
 
-$lang['layout_field_301_redirect_copy'] = 'This layout will do a 301 redirect to another page.';
-$lang['layout_field_alias_copy'] = 'This layout is similar to a 301 redirect but the location of the page does not change and <br />the page content from the specifiec location is used to render the page.';
-$lang['layout_field_sitemap_xml_copy'] = 'This layout is used to generate a sitemap. For this page to appear, a sitemap.xml must not exist on the server.';
-$lang['layout_field_robots_txt_copy'] = 'This layout is used to generate a robots.txt file. For this page to appear, a robots.txt must not exist on the server.';
-$lang['layout_field_none_copy'] = 'This layout is the equivalent of having no layout assigned.';
+$lang['layout_field_301_redirect_copy'] = 'Este layout vai fazer um redirecionamento 301 para outra página.';
+$lang['layout_field_alias_copy'] = 'Este layout é similar ao redirecionmento 301 mas a localização da página não muda e  <br />o conteúdo da página especificada é usada para visualizar a página.';
+$lang['layout_field_sitemap_xml_copy'] = 'Este layout é usado para gerar o mapa do Website. Para esta página aparecer, o ficheiro sitemap.xml tem de existir no servidor.';
+$lang['layout_field_robots_txt_copy'] = 'Este layout é usado para gerar o ficheiro robots.txt. Para esta página aparecer, o ficheiro robots.txt tem de existir no servidor.';
+$lang['layout_field_none_copy'] = 'Este layout é equivalente a não ter nenhum layout designado.';
 
 $lang['layout_field_frequency'] = 'Frequência';
 $lang['layout_field_frequency_always'] = 'sempre';
 $lang['layout_field_frequency_hourly'] = 'hora a hora';
 $lang['layout_field_frequency_daily'] = 'diário';
-$lang['layout_field_frequency_weekly'] = 'semnalmente';
+$lang['layout_field_frequency_weekly'] = 'semanalmente';
 $lang['layout_field_frequency_monthly'] = 'mensalmente';
 $lang['layout_field_frequency_yearly'] = 'anualmente';
 $lang['layout_field_frequency_never'] = 'nunca';
