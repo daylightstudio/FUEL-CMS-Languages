@@ -469,7 +469,7 @@ $lang['form_label_title'] = 'Титул';
 $lang['form_label_label'] = 'Метка';
 $lang['form_label_location'] = 'Расположение';
 $lang['form_label_published'] = 'Опубликованно';
-$lang['form_label_active'] = 'Активный';
+$lang['form_label_active'] = 'Активировано';
 $lang['form_label_precedence'] = 'Порядок';
 $lang['form_label_date_added'] = 'Дата добавления';
 $lang['form_label_last_updated'] = 'Последнее обновление';
@@ -576,6 +576,32 @@ $lang['action_replace'] = 'Переместить';
 $lang['database_migration_success'] = 'Успешная миграции базы данных до версии %1s';
 
 //$lang['import'] = 'Import';
+/*
+|--------------------------------------------------------------------------
+| Installation
+|--------------------------------------------------------------------------
+*/
+$lang['install_cli_intro'] = "Установщик FUEL CMS упрощает установку CMS с общими настройками. Установщик будет делать следующее:\n";
+$lang['install_cli_intro'] .= "1) Автоматически сгенерирует ключ шифрования в fuel/application/config/config.php.\n";
+$lang['install_cli_intro'] .= "2) Включит админку CMS, изменив значение 'admin_enabled' в конфиге fuel/application/config/MY_fuel.php.\n";
+$lang['install_cli_intro'] .= "3) Изменит значение 'fuel_mode' в конфиге fuel/application/config/MY_fuel.php для разрешения страниц, созданных в CMS.\n";
+$lang['install_cli_intro'] .= "4) Изменит значение 'site_name' в fuel/application/config/MY_fuel.php.\n";
+$lang['install_cli_intro'] .= "5) Установит окружения в fuel/application/config/environments.php.\n";
+$lang['install_cli_intro'] .= "6) Сделает папки fuel/application/logs, fuel/application/cache и assets/images доступными для записи.\n";
+$lang['install_cli_intro'] .= "7) Обновит файл fuel/application/config/database.php с введенным значениям.\n";
+$lang['install_cli_intro'] .= "8) Создаст базы данных и установит fuel_schema.sql файл, используя локальное подключение MySQL.\n";
+$lang['install_site_name'] = 'Как бы Вы хотели назвать сайт для текущей установки FUEL CMS?';
+$lang['install_environments_testing'] = 'Каковы названия доменнов для вашего ТЕСТОВОГО окружения (например: myserver.com *.mystagingserver.com)?';
+$lang['install_environments_production'] = 'Каковы названия доменнов для вашего РАБОЧЕГО окружения (например: myserver.com *.myserver.com)?';
+$lang['install_permissions'] = 'Какие права вы хотите задать для своих записываемых папок (например: 0755, 0775, 0777)?';
+$lang['install_db_name'] = 'Как назвать Вашу базу данных?';
+$lang['install_db_user'] = 'Какое имя пользователя для базы данных?';
+$lang['install_db_pwd'] = 'Какой пароль для этого пользователя?';
+$lang['install_success'] = 'Установка FUEL CMS завершена!';
+$lang['install_success_with_errors'] = "Установка FUEL CMS завершена, но произошли такие ОШИБКИ:\n%1s";
+$lang['install_further_info'] = "Чтобы войти в админку FUEL CMS, перейдите в папку с установкой в Вашем браузере и введите '/fuel' (например: localhost/fuel) в адресной строке.\n";
+$lang['install_further_info'] .= "Для дополнительных опций конфигурации, перейдите http://docs.getfuelcms.com/installation/configuration.\n";
+$lang['install_further_info'] .= "По вопросам или сообщения об ошибке, обращайтесь https://github.com/daylightstudio/FUEL-CMS/issues или посетите нас на http://forums.getfuelcms.com.\n";
 
 // now include the Javascript specific ones since there is some crossover
 include('fuel_js_lang.php');
