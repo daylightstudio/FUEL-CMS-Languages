@@ -17,12 +17,18 @@ $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. All Rights Rese
 | Error Messages
 |--------------------------------------------------------------------------
 */
-$lang['error_no_access'] = 'You do not have access to this page. <a href="'.fuel_url().'">Try logging in again</a>.';
+$lang['error_no_access'] = 'You do not have access to this page. <a href="%1s">Try logging in again</a>.';
 $lang['error_missing_module'] = "You are missing the module %1s.";
 $lang['error_invalid_login'] = 'Invalid login.';
 $lang['error_max_attempts'] = 'Sorry, but your login information was incorrect and you are temporarily locked out. Please try again in %s seconds.';
 $lang['error_empty_user_pwd'] = 'Please enter in a user name and password.';
 $lang['error_pwd_reset'] = 'There was an error in resetting your password.';
+
+$lang['error_pwd_too_short'] = 'Password entered does not meet the %1s character min length requirement.';
+$lang['error_pwd_too_long'] = 'Password entered exceeds the %1s character max length requirement.';
+$lang['error_pwd_invalid'] = 'Please choose a stronger password. Try a mix of %1s.';
+
+
 $lang['error_invalid_email'] = 'The email address provided was not in the system.';
 $lang['error_invalid_password_match'] = 'The passwords don\'t match.';
 $lang['error_empty_email'] = 'Please enter in an email address.';
@@ -30,7 +36,7 @@ $lang['error_folder_not_writable'] = 'You must make the %1s folder writable.';
 $lang['error_invalid_folder'] = 'Invalid folder %1s';
 $lang['error_file_already_exists'] = 'File %1s already exists.';
 $lang['error_zip'] = 'There was an error creating the zipped file.';
-$lang['error_no_permissions'] = 'You do not have permissions to complete this action. <a href="'.fuel_url().'">Try logging in again</a>.';
+$lang['error_no_permissions'] = 'You do not have permissions to complete this action. <a href="%1s">Try logging in again</a>.';
 $lang['error_no_lib_permissions'] = 'You do not have permission to execute methods on the %1s class.';
 $lang['error_page_layout_variable_conflict'] = 'There is an error with this layout because it either doesn\'t exist or contains one or more of the following reserved words: %1s';
 $lang['error_no_curl_lib'] = 'You must have the curl php extension to use these tools.';
@@ -72,7 +78,7 @@ $lang['logged_in'] = "%s logged in";
 $lang['logged_out'] = "%s logged out";
 $lang['dev_pwd_instructions'] = 'This site is currently in development and requires a password to view.';
 $lang['login_forgot_pwd'] = 'Forgot password?';
-$lang['login_reset_pwd'] = 'Reset Password';
+$lang['login_reset_pwd'] = 'Set New Password';
 $lang['login_btn'] = 'Login';
 $lang['logout_restore_original_user'] = 'Restore original user';
 
@@ -83,6 +89,14 @@ $lang['auth_log_login_success'] = "Successful login by '%1s' from %2s";
 $lang['auth_log_failed_updating_login_info'] = "There was an error updating the login information for by '%1s' from %2s";
 $lang['auth_log_failed_login'] = "Failed login by '%1s' from %2s, login attempts: %3s";
 $lang['auth_log_account_lockout'] = "Account lockout for '%1s' from %2s";
+
+$lang['pwd_requirements'] = '<p style="text-align: left; margin: 10px 0 5px 0;"><strong>Password must be:</strong></p>';
+$lang['pwd_min_length_required'] = 'A minimum of %1s characters';
+$lang['pwd_max_length_required'] = 'A maximum of %1s characters';
+$lang['pwd_lowercase_required'] = 'One or more lower case letters';
+$lang['pwd_uppercase_required'] = 'One or more upper case letters';
+$lang['pwd_numbers_required'] = 'One or more numbers';
+$lang['pwd_symbols_required'] = 'One or more symbols';
 
 /*
 |--------------------------------------------------------------------------
@@ -124,12 +138,20 @@ $lang['section_my_modules'] = 'My Modules';
 | Login/Password Reset
 |--------------------------------------------------------------------------
 */
-$lang['pwd_reset'] = 'An email to confirm your password reset is on its way.';
+//$lang['pwd_reset'] = 'An email to confirm your password reset is on its way.';
+$lang['pwd_reset_error'] = 'The email address entered does not have an active reset token, please resubmit the reset password form to get a new reset link.';
+$lang['pwd_reset_success'] = 'Your password has been successfully reset, please login.';
+
+$lang['pwd_reset_error_not_match'] = 'The passwords submitted do not match.';
+
+$lang['pwd_reset_missing_token'] = 'Missing or invalid reset token.';
+$lang['pwd_reset_success'] = 'Your password has been successfully reset, please login with your user name and password.';
+$lang['pwd_reset'] = 'An email with your password reset link has been sent.';
 $lang['pwd_reset_subject'] = "FUEL admin password reset request";
-$lang['pwd_reset_email'] = "Click the following link to confirm the reset of your FUEL password:\n%1s";
+$lang['pwd_reset_email'] = "Click the following link to reset your FUEL password:\n%1s";
 $lang['pwd_reset_subject_success'] = "FUEL admin password reset success";
-$lang['pwd_reset_email_success'] = "Your FUEL password has been reset to %1s. To change your password, login to the FUEL CMS admin with this password and click on your login name in the upper right to access your profile information.";
-$lang['pwd_reset_success'] = 'Your password was successfully reset and an email has been sent to you with the new password.';
+//$lang['pwd_reset_email_success'] = "Your FUEL password has been reset to %1s. To change your password, login to the FUEL CMS admin with this password and click on your login name in the upper right to access your profile information.";
+$lang['pwd_reset_email_success'] = 'An email with your password reset link has been sent.';
 $lang['cache_cleared'] = "Site cache cleared explicitly";
 
 
@@ -201,6 +223,8 @@ $msg .= "2. Delete the relevant section from .git/config.\n";
 $msg .= "3. Run git rm --cached %2s (no trailing slash).\n";
 $msg .= "4. Commit and delete the now untracked submodule files.\n";
 $lang['module_uninstall'] = $msg;
+
+$lang['module_update'] = "The module %1s has been updated in FUEL.\n";
 
 // build
 $lang['module_build_asset'] = "%1s optimized and ouput to %2s\n";
@@ -353,13 +377,10 @@ $lang['form_label_language'] = 'Language';
 $lang['form_label_send_email'] = 'Send Email';
 $lang['btn_send_email'] = 'Send Email';
 $lang['new_user_email_subject'] = 'Your FUEL CMS account has been created';
-$lang['new_user_email'] = 'Your FUEL CMS account has been created. You can login with the following information:
-Login URL: %1s
-User name: %2s
-Password: %3s';
+$lang['new_user_email'] = 'Your FUEL CMS account has been created with the user name of "%1s". Click the following link to set your FUEL password: 
+%2s';
 $lang['new_user_created_notification'] = 'The user information was successfully saved and a notification was sent to %1s.';
 $lang['error_cannot_deactivate_yourself'] = 'You cannot deactivate yourself.';
-
 
 /*
 |--------------------------------------------------------------------------
@@ -484,6 +505,7 @@ $lang['form_label_super_admin'] = 'Super admin';
 $lang['form_label_password'] = 'Password';
 $lang['form_label_confirm_password'] = 'Confirm password';
 $lang['form_label_new_password'] = 'New password';
+$lang['form_label_new_invite'] = 'Send new user invite';
 $lang['form_label_description'] = 'Description';
 $lang['form_label_entry_date'] = 'Entry date';
 $lang['form_label_message'] = 'Message';
@@ -591,14 +613,16 @@ $lang['database_migration_success'] = 'Successful database migration to version 
 */
 $lang['install_cli_intro'] = "The FUEL CMS installer is an easy way to setup the CMS with common configurations. It will do the following:\n";
 $lang['install_cli_intro'] .= "1) Automatically generate an encryption key in fuel/application/config/config.php.\n";
-$lang['install_cli_intro'] .= "2) Enable the CMS admin by changing the 'admin_enabled' config value in fuel/application/config/MY_fuel.php.\n";
-$lang['install_cli_intro'] .= "3) Change the 'fuel_mode' config value in in fuel/application/config/MY_fuel.php to allow for pages to be created in the CMS.\n";
-$lang['install_cli_intro'] .= "4) Change the 'site_name' config value in the fuel/application/config/MY_fuel.php.\n";
-$lang['install_cli_intro'] .= "5) Setup your evironments fuel/application/config/environments.php.\n";
-$lang['install_cli_intro'] .= "6) Will make the fuel/application/logs, fuel/application/cache and assets/images folders writable.\n";
-$lang['install_cli_intro'] .= "7) Update the fuel/application/config/database.php file with the inputted values.\n";
-$lang['install_cli_intro'] .= "8) Create a database and install the fuel_schema.sql file using your local MySQL connection.\n";
+$lang['install_cli_intro'] .= "2) Set the session save path in fuel/application/config/config.php.\n";
+$lang['install_cli_intro'] .= "3) Enable the CMS admin by changing the 'admin_enabled' config value in fuel/application/config/MY_fuel.php.\n";
+$lang['install_cli_intro'] .= "4) Change the 'fuel_mode' config value in in fuel/application/config/MY_fuel.php to allow for pages to be created in the CMS.\n";
+$lang['install_cli_intro'] .= "5) Change the 'site_name' config value in the fuel/application/config/MY_fuel.php.\n";
+$lang['install_cli_intro'] .= "6) Setup your evironments fuel/application/config/environments.php.\n";
+$lang['install_cli_intro'] .= "7) Will make the fuel/application/logs, fuel/application/cache and assets/images folders writable.\n";
+$lang['install_cli_intro'] .= "8) Update the fuel/application/config/database.php file with the inputted values.\n";
+$lang['install_cli_intro'] .= "9) Create a database and install the fuel_schema.sql file using your local MySQL connection.\n";
 
+$lang['install_session_path'] = 'By default, FUEL CMS saves sessions using the default "file" setting in the fuel/application/config/config.php file. Where would you like the session files be stored (leave blank to keep it as the default)?';
 $lang['install_site_name'] = 'What would you like the site name to be for this FUEL CMS installation?';
 $lang['install_environments_testing'] = 'What are the domains for your TESTING environment (e.g. myserver.com *.mystagingserver.com)?';
 $lang['install_environments_production'] = 'What are the domains for your PRODUCTION environment (e.g. myserver.com *.myserver.com)?';
@@ -612,6 +636,14 @@ $lang['install_success_with_errors'] = "Your FUEL CMS installation is complete b
 $lang['install_further_info'] = "Now, to access the FUEL CMS admin, browse to your installation folder in your browser enter '/fuel' (e.g. localhost/fuel) in your location bar.\n";
 $lang['install_further_info'] .= "For additional configuration options, go to http://docs.getfuelcms.com/installation/configuration.\n";
 $lang['install_further_info'] .= "For questions, or bug reports, go to https://github.com/daylightstudio/FUEL-CMS/issues or visit us at http://forums.getfuelcms.com.\n";
+
+$lang['update_cli_intro'] = "FUEL CMS 1.4x is built on CodeIgniter 3. If you are upgrading from 1.3x or earlier, this updater will help fix some of the common issues when upgrading including:\n";
+$lang['update_cli_intro'] .= "1) Upper-case first letter for models, libraries and controller file names.\n";
+$lang['update_cli_intro'] .= "2) Will upper case common references to Base_module_model.php within model files.\n";
+$lang['update_cli_intro'] .= "3) Update common method signatures in models and libraries like form_fields, _common_query and initialize to match their parent's signature.\n";
+$lang['update_cli_intro'] .= "WARNING: Run this ONLY if you are using GIT in case you need to roll back!\n";
+$lang['update_cli_intro'] .= "Do you wish to continue (y/n)";
+$lang['update_success'] = 'Update complete!';
 
 // now include the Javascript specific ones since there is some crossover
 include('fuel_js_lang.php');
