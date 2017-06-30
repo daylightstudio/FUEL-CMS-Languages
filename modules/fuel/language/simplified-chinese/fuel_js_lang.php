@@ -1,12 +1,12 @@
-<?php 
+<?php
 /**
- * FUEL CMS v1.3.1 Chinese Language
+ * FUEL CMS v1.4 Chinese Language
  *
- * @author		Andy Low a.k.a [yun]
+ * @author		Andy Low a.k.a [yun] , trlanfeng
  * @license		http://docs.getfuelcms.com/general/license
  * @link		http://www.getfuelcms.com
  */
- 
+
 /*
 |--------------------------------------------------------------------------
 | Misc. For Javascript Files
