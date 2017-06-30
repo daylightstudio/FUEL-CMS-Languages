@@ -13,8 +13,8 @@
 |--------------------------------------------------------------------------
 */
 $lang['fuel_page_title'] = 'FUEL CMS';
-$lang['logged_in_as'] = '登陆为:';
-$lang['logout'] = '登出';
+$lang['logged_in_as'] = '当前用户：';
+$lang['logout'] = '注销';
 $lang['fuel_developed_by'] = 'FUEL CMS 版本 %1s 由 <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> 使用 <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a> 框架构建开发。';
 $lang['fuel_copyright'] = '%1s Daylight Studio &copy; 版权所有';
 
@@ -24,32 +24,35 @@ $lang['fuel_copyright'] = '%1s Daylight Studio &copy; 版权所有';
 | Error Messages
 |--------------------------------------------------------------------------
 */
-$lang['error_no_access'] = '您无权限访问此页面。 <a href="'.fuel_url().'">请重新登陆</a>.';
-$lang['error_missing_module'] = "缺少了 %1s 组件.";
+$lang['error_no_access'] = '您无权限访问此页面。 <a href="%1s">请重新登陆</a>.';
+$lang['error_missing_module'] = "缺少了 %1s 模块。";
 $lang['error_invalid_login'] = '登录无效。';
-$lang['error_max_attempts'] = '抱歉，您的登录信息不正确，您的账户暂时被封锁。请 %s 秒后重试。';
+$lang['error_max_attempts'] = '抱歉，您的登录信息不正确，您的账户暂时被锁定。请 %s 秒后重试。';
 $lang['error_empty_user_pwd'] = '请输入用户名和密码。';
 $lang['error_pwd_reset'] = '重置密码出错。';
+$lang['error_pwd_too_short'] = '密码至少需要 %1s 个字符。';
+$lang['error_pwd_too_long'] = '密码最多可有 %1s 个字符。';
+$lang['error_pwd_invalid'] = '请使用更复杂的密码，可以加入 %1s 。';
 $lang['error_invalid_email'] = '提供的电邮地址不存在。';
-$lang['error_invalid_password_match'] = '密码不符.';
-$lang['error_empty_email'] = '请输入正确的电邮地址。';
-$lang['error_folder_not_writable'] = '%1s 文件夹不可写。';
+$lang['error_invalid_password_match'] = '密码错误.';
+$lang['error_empty_email'] = '请输入电子邮箱地址。';
+$lang['error_folder_not_writable'] = '%1s 文件夹需要可写权限。';
 $lang['error_invalid_folder'] = '无效文件夹 %1s';
 $lang['error_file_already_exists'] = '%1s 文件已存在.';
 $lang['error_zip'] = '创建压缩文件出错。';
-$lang['error_no_permissions'] = '您没有权限来完成此项目。 <a href="'.fuel_url().'">请重新登陆</a>.';
+$lang['error_no_permissions'] = '您没有权限来完成此项目。 <a href="%1s">请重新登陆</a>.';
 $lang['error_no_lib_permissions'] = '您没有权限执行 %1s 类的函数。';
-$lang['error_page_layout_variable_conflict'] = '次布局有误，可能布局不存在或布局包含保留变量名: %1s';
+$lang['error_page_layout_variable_conflict'] = '布局错误，可能布局不存在或布局包含保留变量名: %1s';
 $lang['error_no_curl_lib'] = '这些工具需要PHP curl扩展。';
 $lang['error_inline_page_edit'] = '此变量必须保存在管理区或编辑于相关联的 views/_variables 文件。';
 $lang['error_saving'] = '保存出错。';
-$lang['error_cannot_preview'] = '预览次页面出错。';
-$lang['error_cannot_make_api_call'] = '调用 API 至 %1s 出错.';
-$lang['error_sending_email'] = '发送电邮至 %1s 出错。';
-$lang['error_upload'] = '上传文件出错. 请确保伺服器上传文件大小设置正确以及文件夹处于可写。';
+$lang['error_cannot_preview'] = '预览页面出错。';
+$lang['error_cannot_make_api_call'] = '调用 %1s API出错.';
+$lang['error_sending_email'] = '发送电子邮件至 %1s 出错。';
+$lang['error_upload'] = '上传文件出错. 请确保服务器上传文件大小设置正确以及文件夹处于可写。';
 $lang['error_create_nav_group'] = '请创建导航组';
 $lang['error_requires_string_value'] = '名称字段必须是字符串值';
-$lang['error_missing_params'] = '缺少的参数来查看此页面';
+$lang['error_missing_params'] = '查看此页面出错：缺少参数';
 $lang['error_invalid_method'] = '无效函数名';
 $lang['error_curl_page'] = 'CURL加载页面出错';
 $lang['error_class_property_does_not_exist'] = '类属性 %1s 不存在';
@@ -57,6 +60,7 @@ $lang['error_class_method_does_not_exist'] = '类函数 %1s 不存在';
 $lang['error_could_not_create_folder'] = '无法创建文件夹 %1s';
 $lang['error_could_not_create_file'] = '无法创建文件 %1s';
 $lang['error_no_build'] = "无生成安装此组件。\n";
+$lang['error_invalid_record'] = "此模块记录不存在。";
 
 
 /*
@@ -65,8 +69,8 @@ $lang['error_no_build'] = "无生成安装此组件。\n";
 |--------------------------------------------------------------------------
 */
 $lang['warn_change_default_pwd'] = '<strong>强烈建议您更改默认密码 <em>%1s</em></strong>。';
-$lang['warn_not_published'] = '次项目还未发布。';
-$lang['warn_not_active'] = '%1s 还未现行。';
+$lang['warn_not_published'] = '此项目还未发布。';
+$lang['warn_not_active'] = '%1s 未启用。';
 
 
 /*
@@ -75,7 +79,7 @@ $lang['warn_not_active'] = '%1s 还未现行。';
 |--------------------------------------------------------------------------
 */
 $lang['logged_in'] = "%s 已登录";
-$lang['logged_out'] = "%s 已登出";
+$lang['logged_out'] = "%s 已注销";
 $lang['dev_pwd_instructions'] = '这个网站目前处于开发阶段，需要密码才能查看。';
 $lang['login_forgot_pwd'] = '忘记密码?';
 $lang['login_reset_pwd'] = '重置密码';
@@ -90,6 +94,13 @@ $lang['auth_log_failed_updating_login_info'] = "'%1s' 更新登录信息出错�
 $lang['auth_log_failed_login'] = "'%1s' 登录失败于 %2s, 尝试登录次数: %3s";
 $lang['auth_log_account_lockout'] = "'%1s' 账户锁定于 %2s";
 
+$lang['pwd_requirements'] = '<p style="text-align: left; margin: 10px 0 5px 0;"><strong>密码必须符合以下规则：</strong></p>';
+$lang['pwd_min_length_required'] = '至少 %1s 个字符';
+$lang['pwd_max_length_required'] = '最多 %1s 个字符';
+$lang['pwd_lowercase_required'] = '至少1个小写字母';
+$lang['pwd_uppercase_required'] = '至少1个大写字幕';
+$lang['pwd_numbers_required'] = '至少1个数字';
+$lang['pwd_symbols_required'] = '至少1个符号';
 /*
 |--------------------------------------------------------------------------
 | Dashboard
@@ -130,12 +141,19 @@ $lang['section_my_modules'] = '我的组件';
 | Login/Password Reset
 |--------------------------------------------------------------------------
 */
-$lang['pwd_reset'] = '密码重置电邮已发出';
+
+
+
+$lang['pwd_reset_error'] = '该邮箱没有可用的重置token，请重新获取重置密码链接。';
+$lang['pwd_reset_success'] = '您的密码已成功被重置。含有新密码的电邮已经发送到您的邮箱。';
+$lang['pwd_reset_error_not_match'] = '密码不匹配。';
+$lang['pwd_reset_missing_token'] = 'token丢失或无效。';
+$lang['pwd_reset'] = '密码重置邮件已发出';
 $lang['pwd_reset_subject'] = "FUEL 管理员密码重置请求";
 $lang['pwd_reset_email'] = "点击以下链接确认重置您的 FUEL 密码：\n%1s";
 $lang['pwd_reset_subject_success'] = "FUEL 管理员密码重置成功";
 $lang['pwd_reset_email_success'] = "您的 FUEL 密码已重置到 %1s. 请用此密码登录到 FUEL CMS 管理区，点击右上角您的登录用户名进入【个人资料】更改密码。";
-$lang['pwd_reset_success'] = '您的密码已成功被重置。含有新密码的电邮已经发送到您的邮箱。';
+
 $lang['cache_cleared'] = "站点缓存清除成功";
 
 
@@ -317,6 +335,7 @@ $lang['form_label_create_thumb'] = '创建缩略图';
 $lang['form_label_resize_method'] = '调整方法';
 $lang['form_label_maintain_ratio'] = '保持比例';
 $lang['form_label_resize_and_crop'] = '裁剪模式';
+$lang['form_label_overwrite'] = '重写';
 $lang['form_label_width'] = '宽度';
 $lang['form_label_height'] = '高度';
 $lang['form_label_alt'] = 'Alt';
@@ -489,6 +508,7 @@ $lang['form_label_super_admin'] = '超级管理员';
 $lang['form_label_password'] = '密码';
 $lang['form_label_confirm_password'] = '确认密码';
 $lang['form_label_new_password'] = '新密码';
+$lang['form_label_new_invite'] = '发送新用户邀请';
 $lang['form_label_description'] = '描述';
 $lang['form_label_entry_date'] = '输入日期';
 $lang['form_label_message'] = '信息';
@@ -597,19 +617,20 @@ $lang['install_cli_intro'] = "FUEL CMS 安装器是用基本配置安装此管�
 $lang['install_cli_intro'] .= "1) 自动生成一个加密钥于 fuel/application/config/config.php。\n";
 $lang['install_cli_intro'] .= "2) 开启 CMS 管理区，设置 'admin_enabled' 于 fuel/application/config/MY_fuel.php。\n";
 $lang['install_cli_intro'] .= "3) 更换 fuel/application/config/MY_fuel.php 里的 'fuel_mode' 开启 CMS 管理页面。\n";
-$lang['install_cli_intro'] .= "4) 更改网站名 'site_name' 于 fuel/application/config/MY_fuel.php。\n";
-$lang['install_cli_intro'] .= "5) 设置 fuel/application/config/environments.php 里的环境。\n";
-$lang['install_cli_intro'] .= "6) 将 fuel/application/logs, fuel/application/cache 和 assets/images 文件夹可写化.\n";
-$lang['install_cli_intro'] .= "7) 更新 fuel/application/config/database.php 文件。\n";
-$lang['install_cli_intro'] .= "8) 用本地MySQL连接创建一个数据库并安装 fuel_schema.sql。\n";
-
+$lang['install_cli_intro'] .= "4) 更改 fuel/application/config/MY_fuel.php 文件中的 'fuel_mode' 来允许CMS创建页面。\n";
+$lang['install_cli_intro'] .= "5) 更改网站名 'site_name' 于 fuel/application/config/MY_fuel.php。\n";
+$lang['install_cli_intro'] .= "6) 设置 fuel/application/config/environments.php 里的环境。\n";
+$lang['install_cli_intro'] .= "7) 将 fuel/application/logs, fuel/application/cache 和 assets/images 文件夹可写化.\n";
+$lang['install_cli_intro'] .= "8) 更新 fuel/application/config/database.php 文件。\n";
+$lang['install_cli_intro'] .= "9) 用本地MySQL连接创建一个数据库并安装 fuel_schema.sql。\n";
+$lang['install_session_path'] = '默认情况下， FUEL CMS 使用 fuel/application/config/config.php file 文件中的 "file"  来设置SESSION的存储位置。（默认情况下留空）';
 $lang['install_site_name'] = '您想设置的网站名？';
 $lang['install_environments_testing'] = '您用于 TESTING 环境的域名 (e.g. myserver.com *.mystagingserver.com)？';
 $lang['install_environments_production'] = '您用于 PRODUCTION 环境的域名 (e.g. myserver.com *.myserver.com)?';
 $lang['install_permissions'] = '那个文件夹权限设置您想设置给可写文件夹 (e.g. 0755, 0775, 0777)？';
 $lang['install_db_name'] = '您想要的数据库名称？';
 $lang['install_db_user'] = '连接数据库的用户名是什么 (e.g. root)？';
-$lang['install_db_pwd'] = '密码呢？';
+$lang['install_db_pwd'] = '请输入密码';
 
 $lang['install_success'] = 'FUEL CMS 安装完成！';
 $lang['install_success_with_errors'] = "FUEL CMS 安装完成。但出现了一下错误:\n%1s";
@@ -617,6 +638,13 @@ $lang['install_further_info'] = "访问 FUEL CMS 管理区, 开启浏览器在�
 $lang['install_further_info'] .= "其他配置选项请查阅 http://docs.getfuelcms.com/installation/configuration.\n";
 $lang['install_further_info'] .= "如有问题，或者错误报告, 请到 https://github.com/daylightstudio/FUEL-CMS/issues 或者访问 http://forums.getfuelcms.com.\n";
 
+$lang['update_cli_intro'] = "FUEL CMS 1.4x 基于 CodeIgniter 3 构建。如果你是从 1.3x 或更早的版本升级，这次升级修复了很多以前存在的问题：\n";
+$lang['update_cli_intro'] .= "1) 模型、库、控制器的文件名首字母大写。\n";
+$lang['update_cli_intro'] .= "2) 模型文件的公共引用 Base_module_model.php 专为大写。\n";
+$lang['update_cli_intro'] .= "3) 模型和类库中的公共函数签名将匹配父类的签名，例如 form_fields, _common_query 和 initialize。\n";
+$lang['update_cli_intro'] .= "警告：仅在使用GIT且需要会回滚时进行此操作！\n";
+$lang['update_cli_intro'] .= "要继续吗？ (y/n)";
+$lang['update_success'] = '更新完成！';
 // now include the Javascript specific ones since there is some crossover
 include('fuel_js_lang.php');
 
