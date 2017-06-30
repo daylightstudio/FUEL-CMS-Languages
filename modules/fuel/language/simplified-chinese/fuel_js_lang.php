@@ -1,12 +1,12 @@
-<?php 
+<?php
 /**
- * FUEL CMS v1.3.1 Chinese Language
+ * FUEL CMS v1.4 Chinese Language
  *
- * @author		Andy Low a.k.a [yun]
+ * @author		Andy Low a.k.a [yun] , trlanfeng
  * @license		http://docs.getfuelcms.com/general/license
  * @link		http://www.getfuelcms.com
  */
- 
+
 /*
 |--------------------------------------------------------------------------
 | Misc. For Javascript Files
@@ -20,7 +20,7 @@ $lang['btn_cancel'] = '取消';
 $lang['btn_add'] = '添加';
 $lang['btn_edit'] = '编辑';
 
-$lang['btn_select'] = '选着';
+$lang['btn_select'] = '选择';
 $lang['btn_asset'] = '资源';
 $lang['btn_image'] = '图像';
 $lang['btn_pdf'] = 'PDF';
@@ -37,14 +37,14 @@ $lang['comboselect_selected_empty'] = '请选择左边选项';
 $lang['comboselect_filter'] = '过滤搜索';
 $lang['tree_orphans'] = '_根';
 
-$lang['confirm_delete'] = '您确定删除次项目?';
+$lang['confirm_delete'] = '你确定要删除此项？';
+$lang['confirm_asset_remove'] = '您确定要移除此文件？';
+$lang['form_label_send_email_notification'] = '是否发送更新密码邮件通知？';
 
-$lang['form_label_send_email_notification'] = '需发送更新密码电邮通知吗?';
-
-$lang['error_importing_ajax'] = '导入视图文件错误';
+$lang['error_importing_ajax'] = '导入文件错误';
 
 $lang['viewpage_close'] = '关闭';
-$lang['viewpage_new_window'] = '新视窗';
+$lang['viewpage_new_window'] = '新窗口';
 
 $lang['rearrange_on'] = '您可以通过选择并拖动下面的数据行改变其优先次序。';
 

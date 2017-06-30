@@ -1,12 +1,12 @@
-<?php 
+<?php
 /**
- * FUEL CMS v1.3.1 Chinese Language
+ * FUEL CMS v1.4 Chinese Language
  *
- * @author		Andy Low a.k.a [yun]
+ * @author		Andy Low a.k.a [yun] , trlanfeng
  * @license		http://docs.getfuelcms.com/general/license
  * @link		http://www.getfuelcms.com
  */
- 
+
 // model specific error messages
 $lang['error_val_empty_or_already_exists'] = '%1s 空白或已存在。';
 $lang['error_in_readonly_mode'] = '%1s 处于只读模式，数据不能被修改.';
