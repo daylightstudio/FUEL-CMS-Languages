@@ -612,7 +612,7 @@ $lang['btn_duplicate'] = 'Duplikuj';
 $lang['btn_replace'] = 'Zamień';
 $lang['btn_ok'] = 'OK';
 $lang['btn_upload'] = 'Wczytaj';
-$lang['btn_download'] = 'Ściągnij';
+$lang['btn_download'] = 'Exportuj PHP';
 $lang['btn_export_data'] = 'Wyeksportuj dane';
 
 $lang['btn_no'] = 'Nie';
