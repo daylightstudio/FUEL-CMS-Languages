@@ -149,9 +149,10 @@ $lang['cannot_determine_module'] = "No puedo determinar el módulo.";
 $lang['incorrect_route_to_module'] = "Ruta incorrecta para acceder al módulo.";
 $lang['data_saved'] = 'Los datos han sido guardados.';
 $lang['data_deleted'] = 'Los datos han sido borrados.';
+$lang['data_not_deleted'] = 'Algunos datos no se han podido borrar.';
 $lang['no_data'] = 'No hay datos para mostrar.';
 $lang['no_preview_path'] = 'No hay ruta de previsualización asignada a este módulo.';
-
+$lang['delete_item_message'] = 'Estás a punto de eliminar este elemento:';
 
 /*
 |--------------------------------------------------------------------------
@@ -249,7 +250,7 @@ $lang['new_user_email'] = 'Tu cuenta de FUEL CMS ha sido creada. Puedes identifi
 URL de identificación:'.site_url('fuel/login').'
 Nombre de usuario: %1s
 Contraseña: %2s';
-$lang['new_user_created_notification'] = 'Se ha creado un nuevo usuario y se ha enviado una notificación a %1s.';
+$lang['new_user_created_notification'] = 'La información de usuario ha sido guardada satisfactoriamente y se ha enviado una notificación a %1s.';
 
 
 /*
