@@ -252,7 +252,7 @@ $lang['pages_not_published'] = 'Questa pagina non è pubblicata.';
 $lang['pages_default_location'] = 'esempio: company/about';
 
 $lang['form_label_page'] = 'Pagina';
-$lang['form_label_target'] = 'Target';
+$lang['form_label_target'] = 'Hedef';
 $lang['form_label_class'] = 'Classe';
 
 $lang['navigation_related'] = 'Crea navigazione';
