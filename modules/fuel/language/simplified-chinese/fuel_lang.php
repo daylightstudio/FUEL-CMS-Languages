@@ -277,7 +277,7 @@ $lang['pages_not_published'] = '该页面未公布。';
 $lang['pages_default_location'] = '例子: company/about';
 
 $lang['form_label_page'] = '页面';
-$lang['form_label_target'] = '目标(Target)';
+$lang['form_label_target'] = '目标(Hedef)';
 $lang['form_label_class'] = '类(Class)';
 
 $lang['navigation_related'] = '创建导航';
