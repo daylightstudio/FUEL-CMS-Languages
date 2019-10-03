@@ -209,7 +209,7 @@ $lang['module_build_asset'] = "%1s optimized and ouput to %2s\n";
 | Migrations
 |--------------------------------------------------------------------------
 */
-$lang['migrate_success'] = "You have successfully migrated to version %s.\n";
+$lang['migrate_success'] = "Успешная миграция на версию %s.\n";
 $lang['migrate_nothing_todo'] = "No migrations were necessary.\n";
 
 /*
@@ -227,7 +227,7 @@ $lang['reset_search'] = 'Сбросить Поиск';
 |--------------------------------------------------------------------------
 */
 
-$lang['page_route_warning'] = 'The location specified has the following routes already specified in the routes file (%1s):';
+$lang['page_route_warning'] = 'Такой роутинг уже существует (%1s):';
 $lang['page_controller_assigned'] = 'Существует метод контроллера, уже назначеного для этой страницы.';
 $lang['page_updated_view'] = 'Существует обновленный файл Представления, расположенный в <strong>%1s</strong>. Хотите загрузить его в тело страницы (если возможно)?';
 $lang['page_not_published'] = 'Эта страница не опубликована.';
@@ -405,8 +405,8 @@ $lang['error_missing_generation_files'] = 'There are no generation files to crea
 |--------------------------------------------------------------------------
 */
 $lang['table_action_edit'] = 'РЕДАКТИРОВАТЬ';
-$lang['table_action_delete'] = 'ELFKBNM';
-$lang['table_action_view'] = 'GHJCVJNHTNM';
+$lang['table_action_delete'] = 'УДАЛИТЬ';
+$lang['table_action_view'] = 'ПРОСМОТРЕТЬ';
 $lang['click_to_toggle'] = 'нажмите для переключения';
 $lang['table_action_login_as'] = 'Вошел как: ';
 
@@ -430,7 +430,7 @@ $lang['label_select_a_language'] = 'Выберите язык...';
 | Buttons
 |--------------------------------------------------------------------------
 */
-$lang['btn_list'] = 'List';
+$lang['btn_list'] = 'Лист';
 $lang['btn_tree'] = 'Дерево';
 $lang['btn_create'] = 'Создать';
 $lang['btn_delete_multiple'] = 'Удаление нескольких';
