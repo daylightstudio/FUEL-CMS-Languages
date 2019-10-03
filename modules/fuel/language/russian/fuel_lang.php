@@ -446,7 +446,7 @@ $lang['btn_duplicate'] = 'Дублировать';
 $lang['btn_replace'] = 'Заменить';
 $lang['btn_ok'] = 'OK';
 $lang['btn_upload'] = 'Загрузить';
-$lang['btn_download'] = 'Загрузить';
+$lang['btn_download'] = 'Скачать';
 $lang['btn_export_data'] = 'Экспорт данных';
 
 $lang['btn_no'] = 'Нет';
