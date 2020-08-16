@@ -7,7 +7,7 @@ $lang['error_public_accessible_server'] = '链接验证必须在您的网站处�
 $lang['error_checking_page_links'] = '检查此页面链接出错。';
 
 $lang['validate_instructions'] = '选择左边的页面验证。然后选择是否要验证HTML或每个页面的链接。
-处理时间取决于所选的页面数量。HTML验证方面, 建议您可以 <a href="http://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>设置一个本地验证服务器</strong></a>, 
+处理时间取决于所选的页面数量。HTML验证方面, 建议您可以 <a href="https://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>设置一个本地验证服务器</strong></a>, 
 或者一次只验证少许页面以避免被 w3c.org 暂时禁用。';
 
 $lang['btn_validate_links'] = '验证链接';

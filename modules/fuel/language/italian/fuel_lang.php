@@ -8,7 +8,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Loggato come:';
 $lang['logout'] = 'Logout';
-$lang['fuel_developed_by'] = 'FUEL CMS verisone %1s è sviluppato da <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> e costruito sopra il framework <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
+$lang['fuel_developed_by'] = 'FUEL CMS verisone %1s è sviluppato da <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> e costruito sopra il framework <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
 $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. Tutti i diritti riservati.';
 
 
@@ -279,7 +279,7 @@ $lang['form_label_view'] = 'View';
 */
 $lang['navigation_import'] = 'Importa navigazione';
 $lang['navigation_instructions'] = 'Qui puoi creare e modificare gli elementi top menu della pagina.';
-$lang['navigation_import_instructions'] = 'Seleziona un gruppo di navigazione e carica un file per importarlo qui sotto. Il file deve contenere un array PHP assegnata alla variabile qua sotto (es. <strong>$nav</strong>). Come referenza per il formato dell\'array consulta la <a href="http://docs.getfuelcms.com/general/navigation" target="_blank">guida utente</a>.';
+$lang['navigation_import_instructions'] = 'Seleziona un gruppo di navigazione e carica un file per importarlo qui sotto. Il file deve contenere un array PHP assegnata alla variabile qua sotto (es. <strong>$nav</strong>). Come referenza per il formato dell\'array consulta la <a href="https://docs.getfuelcms.com/general/navigation" target="_blank">guida utente</a>.';
 $lang['navigation_success_upload'] = 'La navigation è stata caricata con successo.';
 $lang['form_label_navigation_group'] = 'Gruppo di Navigation:';
 $lang['form_label_nav_key'] = 'Chiave';
@@ -609,8 +609,8 @@ $lang['install_db_pwd'] = 'Quale è la password per l\'utente?';
 $lang['install_success'] = 'La tua installazione del CMS FUEL è completa!';
 $lang['install_success_with_errors'] = "La tua installazione del CMS FUEL è completa ma sono occorsi i seguenti ERRORI:\n%1s";
 $lang['install_further_info'] = "Ora, per accedere al CMS di FUEL, naviga nel browser fino alla tua cartella di installazione e aggiungi '/fuel' (es. localhost/fuel).\n";
-$lang['install_further_info'] .= "Per configuazioni addizionali, visita http://docs.getfuelcms.com/installation/configuration.\n";
-$lang['install_further_info'] .= "Per domande, bug reports, visita https://github.com/daylightstudio/FUEL-CMS/issues o visitaci a http://forums.getfuelcms.com.\n";
+$lang['install_further_info'] .= "Per configuazioni addizionali, visita https://docs.getfuelcms.com/installation/configuration.\n";
+$lang['install_further_info'] .= "Per domande, bug reports, visita https://github.com/daylightstudio/FUEL-CMS/issues o visitaci a https://forums.getfuelcms.com.\n";
 
 // now include the Javascript specific ones since there is some crossover
 include('fuel_js_lang.php');

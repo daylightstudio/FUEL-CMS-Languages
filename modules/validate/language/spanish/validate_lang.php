@@ -8,7 +8,7 @@ $lang['error_checking_page_links'] = 'Hubo un error probando los enlaces de la p
 
 $lang['validate_instructions'] = 'Selecciona las páginas a validar en la izquierda. Entonces selecciona si deseas validar el HTML o los enlaces para cada página. 
 El tiempo de proceso puede validar de algunos segundos a varios minutos dependiendo del número de páginas seleccionadas.
-Para la validación de HTML, es recomendable que bien <a href="http://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>configures un servidor de validación local</strong></a>, 
+Para la validación de HTML, es recomendable que bien <a href="https://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>configures un servidor de validación local</strong></a>, 
 o valides pocas a la vez para evitar ser bloqueado en w3c.org.';
 
 $lang['btn_validate_links'] = 'Validar enlaces';

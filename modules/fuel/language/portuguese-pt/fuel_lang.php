@@ -8,7 +8,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Autenticado como:';
 $lang['logout'] = 'Sair';
-$lang['fuel_developed_by'] = 'FUEL CMS versão %1s é devenvolvido por <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> e  desenvolvido sobre a framework <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
+$lang['fuel_developed_by'] = 'FUEL CMS versão %1s é devenvolvido por <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> e  desenvolvido sobre a framework <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
 $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. Todos os Direitos Reservados.';
 
 
@@ -258,7 +258,7 @@ $lang['form_label_view'] = 'Ver';
 */
 $lang['navigation_import'] = 'Importar Navigação';
 $lang['navigation_instructions'] = 'Aqui pode criar e editar os itens do menu de topo da página.';
-$lang['navigation_import_instructions'] = 'Select a navigation group and upload a file to import below. The file should contain the PHP array variable assigned in the variable field below (e.g. <strong>$nav</strong>). For a reference of the array format, please consult the <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">user guide</a>.';
+$lang['navigation_import_instructions'] = 'Select a navigation group and upload a file to import below. The file should contain the PHP array variable assigned in the variable field below (e.g. <strong>$nav</strong>). For a reference of the array format, please consult the <a href="https://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">user guide</a>.';
 $lang['navigation_success_upload'] = 'A navegação foi enviada com sucesso.';
 $lang['form_label_navigation_group'] = 'Grupo de Navegação:';
 $lang['form_label_nav_key'] = 'Tecla de Navegação';

@@ -8,7 +8,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Вы вошли как:';
 $lang['logout'] = 'Выйти';
-$lang['fuel_developed_by'] = 'FUEL CMS версия %1s разработана <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> и построена на <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a> framework.';
+$lang['fuel_developed_by'] = 'FUEL CMS версия %1s разработана <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> и построена на <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a> framework.';
 $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. All Rights Reserved.';
 
 
@@ -600,8 +600,8 @@ $lang['install_db_pwd'] = 'Какой пароль для этого польз�
 $lang['install_success'] = 'Установка FUEL CMS завершена!';
 $lang['install_success_with_errors'] = "Установка FUEL CMS завершена, но произошли такие ОШИБКИ:\n%1s";
 $lang['install_further_info'] = "Чтобы войти в админку FUEL CMS, перейдите в папку с установкой в Вашем браузере и введите '/fuel' (например: localhost/fuel) в адресной строке.\n";
-$lang['install_further_info'] .= "Для дополнительных опций конфигурации, перейдите http://docs.getfuelcms.com/installation/configuration.\n";
-$lang['install_further_info'] .= "По вопросам или сообщения об ошибке, обращайтесь https://github.com/daylightstudio/FUEL-CMS/issues или посетите нас на http://forums.getfuelcms.com.\n";
+$lang['install_further_info'] .= "Для дополнительных опций конфигурации, перейдите https://docs.getfuelcms.com/installation/configuration.\n";
+$lang['install_further_info'] .= "По вопросам или сообщения об ошибке, обращайтесь https://github.com/daylightstudio/FUEL-CMS/issues или посетите нас на https://forums.getfuelcms.com.\n";
 
 // now include the Javascript specific ones since there is some crossover
 include('fuel_js_lang.php');

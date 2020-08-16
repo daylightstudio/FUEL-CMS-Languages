@@ -8,7 +8,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Giriş yaptı:';
 $lang['logout'] = 'Çıkış Yap';
-$lang['fuel_developed_by'] = 'FUEL CMS versiyon %1s ile geliştirildi by <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> ve <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a> framework ve üzerine inşa edildi.';
+$lang['fuel_developed_by'] = 'FUEL CMS versiyon %1s ile geliştirildi by <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> ve <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a> framework ve üzerine inşa edildi.';
 $lang['fuel_copyright'] = 'Telif Hakkı &copy; %1s Daylight Studio. Her hakkı saklıdır.';
 
 
@@ -304,7 +304,7 @@ $lang['form_label_view'] = 'Görünüm';
 */
 $lang['navigation_import'] = 'Navigasyonu İçe Aktar';
 $lang['navigation_instructions'] = 'Burada sayfanın üst menü öğelerini oluşturup düzenlersiniz.';
-$lang['navigation_import_instructions'] = 'Bir gezinme grubu seçin ve aşağıdan içe aktarmak için bir dosya yükleyin. Dosya, aşağıdaki değişken alanında atanan PHP dizi değişkenini içermelidir (ör. <strong> $nav </strong>). Dizi formatının referansı için lütfen <a href="http://docs.getfuelcms.com/general/navigation" target="_blank">Kullanici rehberi</a>.';
+$lang['navigation_import_instructions'] = 'Bir gezinme grubu seçin ve aşağıdan içe aktarmak için bir dosya yükleyin. Dosya, aşağıdaki değişken alanında atanan PHP dizi değişkenini içermelidir (ör. <strong> $nav </strong>). Dizi formatının referansı için lütfen <a href="https://docs.getfuelcms.com/general/navigation" target="_blank">Kullanici rehberi</a>.';
 $lang['navigation_success_upload'] = 'Gezinme başarıyla yüklendi.';
 $lang['form_label_navigation_group'] = 'Gezinme Grubu:';
 $lang['form_label_nav_key'] = 'Anahtar';
@@ -634,8 +634,8 @@ $lang['install_db_pwd'] = 'Bu kullanıcı için şifre nedir?';
 $lang['install_success'] = 'FUEL CMS kurulumunuz tamamlandı!';
 $lang['install_success_with_errors'] = "FUEL CMS kurulumunuz tamamlandı ancak ERRORS takip edildi:\n%1s";
 $lang['install_further_info'] = "Şimdi, FUEL CMS yöneticisine erişmek için tarayıcınızın girdiği kurulum klasörüne göz atın. '/fuel' (e.g. localhost/fuel) konum çubuğundan.\n";
-$lang['install_further_info'] .= "Ek yapılandırma seçenekleri için http://docs.getfuelcms.com/installation/configuration.\n";
-$lang['install_further_info'] .= "Sorularınız veya hata raporları için https://github.com/daylightstudio/FUEL-CMS/issues ya da bizi ziyaret edin http://forums.getfuelcms.com.\n";
+$lang['install_further_info'] .= "Ek yapılandırma seçenekleri için https://docs.getfuelcms.com/installation/configuration.\n";
+$lang['install_further_info'] .= "Sorularınız veya hata raporları için https://github.com/daylightstudio/FUEL-CMS/issues ya da bizi ziyaret edin https://forums.getfuelcms.com.\n";
 
 $lang['update_cli_intro'] = "FUEL CMS 1.4x, CodeIgniter 3'te yerleşiktir. 1.3x veya daha önceki sürümlerden yükseltme yapıyorsanız, bu güncelleyici, güncellemeyi de içeren bazı yaygın sorunların düzeltilmesine yardımcı olacaktır.:\n";
 $lang['update_cli_intro'] .= "1) Modeller, kütüphaneler ve kontrolör dosya isimleri için ilk harf büyük.\n";

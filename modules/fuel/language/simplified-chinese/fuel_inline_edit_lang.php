@@ -3,8 +3,8 @@
  * FUEL CMS v1.4 Chinese Language
  *
  * @author		Andy Low a.k.a [yun] , trlanfeng
- * @license		http://docs.getfuelcms.com/general/license
- * @link		http://www.getfuelcms.com
+ * @license		https://docs.getfuelcms.com/general/license
+ * @link		https://www.getfuelcms.com
  */
 
 /*
