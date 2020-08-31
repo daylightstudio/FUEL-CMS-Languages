@@ -8,7 +8,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Zalogowany jako:';
 $lang['logout'] = 'Wyloguj';
-$lang['fuel_developed_by'] = 'FUEL CMS wersja %1s jest opracowany przez <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> i zbudowany na bazie frameworku PHP - <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
+$lang['fuel_developed_by'] = 'FUEL CMS wersja %1s jest opracowany przez <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> i zbudowany na bazie frameworku PHP - <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
 $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. Wszystkie prawa zarezerwowane.';
 
 
@@ -417,7 +417,7 @@ $lang['navigation_import'] = 'Import Nawigacji';
 //$lang['navigation_instructions'] = 'Here you create and edit the top menu items of the page.';
 $lang['navigation_instructions'] = 'Tu możesz stworzyć i edytować główne menu strony internetowej.';
 //$lang['navigation_import_instructions'] = 'Select a navigation group and upload a file to import below. The file should contain the PHP array variable assigned in the variable field below (e.g. <strong>$nav</strong>). For a reference of the array format, please consult the <a href="http://docs.getfuelcms.com/general/navigation" target="_blank">user guide</a>.';
-$lang['navigation_import_instructions'] = 'Wybierz grupę nawigacji i wczytaj plik z danymi nawigacji. Plik powinien zawierać tablicę PHP o nazwie jak poniżej podana w polu Variable (np. <strong>$nav</strong>). Dokumentacja formatu tablicy jest opisana pod adresem <a href="http://docs.getfuelcms.com/general/navigation" target="_blank">Podręcznik użytkownika (english)</a>.';
+$lang['navigation_import_instructions'] = 'Wybierz grupę nawigacji i wczytaj plik z danymi nawigacji. Plik powinien zawierać tablicę PHP o nazwie jak poniżej podana w polu Variable (np. <strong>$nav</strong>). Dokumentacja formatu tablicy jest opisana pod adresem <a href="https://docs.getfuelcms.com/general/navigation" target="_blank">Podręcznik użytkownika (english)</a>.';
 //$lang['navigation_success_upload'] = 'The navigation was successfully uploaded.';
 $lang['navigation_success_upload'] = 'Nawigacja została prawidłowo wczytana.';
 $lang['form_label_navigation_group'] = 'Grupa Nawigacji:';
@@ -808,9 +808,9 @@ $lang['install_success_with_errors'] = "Twoja instalacja systemu FUEL CMS jest z
 //$lang['install_further_info'] = "Now, to access the FUEL CMS admin, browse to your installation folder in your browser enter '/fuel' (e.g. localhost/fuel) in your location bar.\n";
 $lang['install_further_info'] = "Żeby zalogować się do systemu FUEL CMS admin, przejdź do adresu url pod którym system jest zainstalowany i dodaj do adresu '/fuel' (np. localhost/fuel) w pasku adresu przeglądarki.\n";
 //$lang['install_further_info'] .= "For additional configuration options, go to http://docs.getfuelcms.com/installation/configuration.\n";
-$lang['install_further_info'] .= "Opis dodatkowych opcji konfiguracji jest dostępny pod adresem http://docs.getfuelcms.com/installation/configuration.\n";
+$lang['install_further_info'] .= "Opis dodatkowych opcji konfiguracji jest dostępny pod adresem https://docs.getfuelcms.com/installation/configuration.\n";
 //$lang['install_further_info'] .= "For questions, or bug reports, go to https://github.com/daylightstudio/FUEL-CMS/issues or visit us at http://forums.getfuelcms.com.\n";
-$lang['install_further_info'] .= "Jeśli masz pytania, lub chcesz zgłosić błąd, przejdź pod adres https://github.com/daylightstudio/FUEL-CMS/issues albo odwiedź nas pod adresem http://forums.getfuelcms.com.\n";
+$lang['install_further_info'] .= "Jeśli masz pytania, lub chcesz zgłosić błąd, przejdź pod adres https://github.com/daylightstudio/FUEL-CMS/issues albo odwiedź nas pod adresem https://forums.getfuelcms.com.\n";
 
 //$lang['update_cli_intro'] = "FUEL CMS 1.4x is built on CodeIgniter 3. If you are upgrading from 1.3x or earlier, this updater will help fix some of the common issues when upgrading including:\n";
 $lang['update_cli_intro'] = "System FUEL CMS 1.4x jest zbudowany na bazie frameworku CodeIgniter 3. Jeśli aktualizujesz z wersji 1.3x lub wcześniejszej, ten instalator pomoże naprawić niektóre powszechne błędy podczas aktualizacji, włącznie z:\n";

@@ -3,8 +3,8 @@
  * FUEL CMS v1.4 Chinese Language
  *
  * @author		Andy Low a.k.a [yun] , trlanfeng
- * @license		http://docs.getfuelcms.com/general/license
- * @link		http://www.getfuelcms.com
+ * @license		https://docs.getfuelcms.com/general/license
+ * @link		https://www.getfuelcms.com
  */
 
 /*
@@ -15,7 +15,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = '当前用户：';
 $lang['logout'] = '注销';
-$lang['fuel_developed_by'] = 'FUEL CMS 版本 %1s 由 <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> 使用 <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a> 框架构建开发。';
+$lang['fuel_developed_by'] = 'FUEL CMS 版本 %1s 由 <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> 使用 <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a> 框架构建开发。';
 $lang['fuel_copyright'] = '%1s Daylight Studio &copy; 版权所有';
 
 
@@ -304,7 +304,7 @@ $lang['form_label_view'] = '视图';
 */
 $lang['navigation_import'] = '导入导航';
 $lang['navigation_instructions'] = '创建和编辑页面顶部的菜单项。';
-$lang['navigation_import_instructions'] = '选择一个导航组，并将文件上传用于导入。 该文件必须包含 PHP 数组变量分配于以下列表的变量字段(e.g. <strong>$nav</strong>). 对于数组格式的参考, 请查阅<a href="http://docs.getfuelcms.com/general/navigation" target="_blank">用户手册</a>。';
+$lang['navigation_import_instructions'] = '选择一个导航组，并将文件上传用于导入。 该文件必须包含 PHP 数组变量分配于以下列表的变量字段(e.g. <strong>$nav</strong>). 对于数组格式的参考, 请查阅<a href="https://docs.getfuelcms.com/general/navigation" target="_blank">用户手册</a>。';
 $lang['navigation_success_upload'] = '导航已成功上传。';
 $lang['form_label_navigation_group'] = '导航组';
 $lang['form_label_nav_key'] = '钥';
@@ -635,8 +635,8 @@ $lang['install_db_pwd'] = '请输入密码';
 $lang['install_success'] = 'FUEL CMS 安装完成！';
 $lang['install_success_with_errors'] = "FUEL CMS 安装完成。但出现了一下错误:\n%1s";
 $lang['install_further_info'] = "访问 FUEL CMS 管理区, 开启浏览器在地址栏里输入您的安装文件夹并加入 '/fuel' (e.g. localhost/fuel) 浏览。\n";
-$lang['install_further_info'] .= "其他配置选项请查阅 http://docs.getfuelcms.com/installation/configuration.\n";
-$lang['install_further_info'] .= "如有问题，或者错误报告, 请到 https://github.com/daylightstudio/FUEL-CMS/issues 或者访问 http://forums.getfuelcms.com.\n";
+$lang['install_further_info'] .= "其他配置选项请查阅 https://docs.getfuelcms.com/installation/configuration.\n";
+$lang['install_further_info'] .= "如有问题，或者错误报告, 请到 https://github.com/daylightstudio/FUEL-CMS/issues 或者访问 https://forums.getfuelcms.com.\n";
 
 $lang['update_cli_intro'] = "FUEL CMS 1.4x 基于 CodeIgniter 3 构建。如果你是从 1.3x 或更早的版本升级，这次升级修复了很多以前存在的问题：\n";
 $lang['update_cli_intro'] .= "1) 模型、库、控制器的文件名首字母大写。\n";

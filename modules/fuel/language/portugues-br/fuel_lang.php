@@ -8,7 +8,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Identificado como:';
 $lang['logout'] = 'Fechar a seção';
-$lang['fuel_developed_by'] = 'FUEL CMS versão %1s é desenvolvido por <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> e construído sobre o framework <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
+$lang['fuel_developed_by'] = 'FUEL CMS versão %1s é desenvolvido por <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> e construído sobre o framework <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
 $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. Todos os direitos reservados.';
 
 
@@ -197,8 +197,8 @@ $lang['blocks_upload_instructions'] = 'Selecionar um arquivo de visualização e
 |--------------------------------------------------------------------------
 */
 $lang['navigation_instructions'] = 'Aqui você pode criar e editar itens no menu no topo da página.';
-$lang['navigation_import_instructions'] = 'Selecione um grupo de navegação e upload de um arquivo a ser importado abaixo. O arquivo PHP devem conter a matriz <strong> variável $ nav </ strong>. Para uma referência do formato de array, consulte o guia do usuário <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank"> </ a>';
-$lang['navigation_import_instructions'] = 'Selecionar um grupo de navegação e importação upload de um arquivo abaixo. O arquivo deve conter o <strong> variável PHP array $ nav </ strong>. Para referência no formato de array, consulte o guia do usuário <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank"></a>';
+$lang['navigation_import_instructions'] = 'Selecione um grupo de navegação e upload de um arquivo a ser importado abaixo. O arquivo PHP devem conter a matriz <strong> variável $ nav </ strong>. Para uma referência do formato de array, consulte o guia do usuário <a href="https://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank"> </ a>';
+$lang['navigation_import_instructions'] = 'Selecionar um grupo de navegação e importação upload de um arquivo abaixo. O arquivo deve conter o <strong> variável PHP array $ nav </ strong>. Para referência no formato de array, consulte o guia do usuário <a href="https://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank"></a>';
 $lang['navigation_success_upload'] = 'A navegação foi carregada corretamente.';
 $lang['form_label_navigation_group'] = 'Grupo de navegação';
 $lang['form_label_nav_key'] = 'Tecla de Navegação';

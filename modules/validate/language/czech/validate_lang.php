@@ -8,7 +8,7 @@ $lang['error_checking_page_links'] = 'Vyskytla se chyba při prověřování odk
 
 $lang['validate_instructions'] = 'Vyberte nalevo stránky, které chcete prověřit. Pak vyberte zda chcete na vybraných stránkách prověřit HTML nebo odkazy.
 	Doba zpracování může trvat několik vteřin až minut podle počtu vybraných stránek.
-	Pro prověření HTML je doporučeno buď <a href="http://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>použít lokální validační server</strong></a>
+	Pro prověření HTML je doporučeno buď <a href="https://developer.apple.com/internet/opensource/validator.html" target="blank"><strong>použít lokální validační server</strong></a>
 	nebo prověřovat pouze několik stránek zároveň, aby se předešlo dočasné blokaci na w3c.org.';
 
 $lang['btn_validate_links'] = 'Prověření odkazů';

@@ -8,7 +8,7 @@
 $lang['fuel_page_title'] = 'FUEL CMS';
 $lang['logged_in_as'] = 'Přihlášený jako:';
 $lang['logout'] = 'Odhlásit';
-$lang['fuel_developed_by'] = 'FUEL CMS verze %1s byla vyvinuta <a href="http://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> a vybudována na frameworku <a href="http://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
+$lang['fuel_developed_by'] = 'FUEL CMS verze %1s byla vyvinuta <a href="https://www.thedaylightstudio.com" target="_blank">Daylight Studio</a> a vybudována na frameworku <a href="https://www.codeigniter.com" target="_blank">CodeIgniter</a>.';
 $lang['fuel_copyright'] = 'Copyright &copy; %1s Daylight Studio. All Rights Reserved.';
 
 
@@ -202,7 +202,7 @@ $lang['form_label_view'] = 'View';
 |--------------------------------------------------------------------------
 */
 $lang['navigation_instructions'] = 'Zde můžete vytvářet a editovat položky horního menu.';
-$lang['navigation_import_instructions'] = 'Označte skupinu navigace a nahrajte soubor k importu. Soubor by měl obsahovat PHP proměnnou typu pole <strong>$nav</strong>. Bližší informace o správném tvaru tohoto pole můžete najít v <a href="http://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">uživatelské příručce</a>';
+$lang['navigation_import_instructions'] = 'Označte skupinu navigace a nahrajte soubor k importu. Soubor by měl obsahovat PHP proměnnou typu pole <strong>$nav</strong>. Bližší informace o správném tvaru tohoto pole můžete najít v <a href="https://www.getfuelcms.com/user_guide/modules/fuel/navigation" target="_blank">uživatelské příručce</a>';
 $lang['navigation_success_upload'] = 'Navigace byla úspěšně nahrána.';
 $lang['form_label_navigation_group'] = 'Skupina navigace';
 $lang['form_label_nav_key'] = 'Nav Klíč';

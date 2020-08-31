@@ -1,7 +1,7 @@
 # FUEL CMS
 FUEL CMS is a CodeIgniter based Content Management System. To learn more about
 it's features visit:
-[http://www.getfuelcms.com](http://www.getfuelcms.com)
+[https://www.getfuelcms.com](https://www.getfuelcms.com)
 
 
 # INSTALLATION
@@ -15,12 +15,12 @@ FUEL CMS.
 
 You will also need to install the CodeIgniter 2.0 language
 translation files which can be found here.
-http://codeigniter.com/wiki/Language_Translation/
+https://codeigniter.com/wiki/Language_Translation/
 
 
 # DOCUMENTATION
 To access the documentation, you can visit:
-[https://github.com/daylightstudio/FUEL-CMS](http://www.getfuelcms.com/user_guide/general/localization/)
+[https://github.com/daylightstudio/FUEL-CMS](https://www.getfuelcms.com/user_guide/general/localization/)
 
 
 # TEAM
@@ -29,7 +29,7 @@ To access the documentation, you can visit:
 
 # BUGS
 To file a bug report, go to:
-[http://github.com/daylightstudio/FUEL-CMS-Languages/issues](http://github.com/daylightstudio/FUEL-CMS-Languages/issues)
+[https://github.com/daylightstudio/FUEL-CMS-Languages/issues](https://github.com/daylightstudio/FUEL-CMS-Languages/issues)
 
 
 # LICENSE

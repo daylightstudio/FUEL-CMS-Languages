@@ -4,8 +4,8 @@
  * FUEL CMS v1.4 Polish Language Translation
  *
  * @author		Tomasz Zdulski 
- * @license		http://docs.getfuelcms.com/general/license
- * @link		http://www.getfuelcms.com
+ * @license		https://docs.getfuelcms.com/general/license
+ * @link		https://www.getfuelcms.com
  */
 
 // model specific error messages
