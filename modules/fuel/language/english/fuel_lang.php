@@ -211,6 +211,7 @@ $lang['no_data'] = 'No data to display.';
 $lang['no_preview_path'] = 'There is no preview path assigned to this module.';
 $lang['delete_item_message'] = 'You are about to delete the item:';
 $lang['replace_item_message'] = 'Select a record from the list below that you would like to replace. Replacing will transfer the data from one record to the other and then delete the old record.';
+$lang['error_select_replacement'] = 'There was an error replacing your module record.';
 
 // command line
 $lang['module_install'] = "The '%1s' module has successfully been installed.\n";
@@ -227,7 +228,7 @@ $lang['module_uninstall'] = $msg;
 $lang['module_update'] = "The module %1s has been updated in FUEL.\n";
 
 // build
-$lang['module_build_asset'] = "%1s optimized and ouput to %2s\n";
+$lang['module_build_asset'] = "%1s optimized and output to %2s\n";
 
 /*
 |--------------------------------------------------------------------------
@@ -244,7 +245,7 @@ $lang['migrate_nothing_todo'] = "No migrations were necessary.\n";
 */
 $lang['adv_search'] = 'Advanced Search';
 $lang['reset_search'] = 'Reset Search';
-
+$lang['num_items'] = 'item';
 
 /*
 |--------------------------------------------------------------------------
@@ -304,7 +305,8 @@ $lang['form_label_view'] = 'View';
 */
 $lang['navigation_import'] = 'Import Navigation';
 $lang['navigation_instructions'] = 'Here you create and edit the top menu items of the page.';
-$lang['navigation_import_instructions'] = 'Select a navigation group and upload a file to import below. The file should contain the PHP array variable assigned in the variable field below (e.g. <strong>$nav</strong>). For a reference of the array format, please consult the <a href="https://docs.getfuelcms.com/general/navigation" target="_blank">user guide</a>.';
+$lang['navigation_import_instructions'] = 'The following allows you to import your <code>views/_variables/nav.php</code> file OR a JSON file that represents your navigation array. For a reference of the array format, please consult the <a href="https://docs.getfuelcms.com/general/navigation" target="_blank">user guide</a>.';
+$lang['navigation_import_file_comment'] = 'If no file is uploaded, it will default to the views/_variables/nav.php file. The file must be a JSON file';
 $lang['navigation_success_upload'] = 'The navigation was successfully uploaded.';
 $lang['form_label_navigation_group'] = 'Navigation Group:';
 $lang['form_label_nav_key'] = 'Key';
@@ -379,6 +381,8 @@ $lang['btn_send_email'] = 'Send Email';
 $lang['new_user_email_subject'] = 'Your FUEL CMS account has been created';
 $lang['new_user_email'] = 'Your FUEL CMS account has been created with the user name of "%1s". Click the following link to set your FUEL password: 
 %2s';
+$lang['new_user_account_email'] = 'Your FUEL CMS account has been created with the user name of "%2s" and the password "%3s". 
+Click the following link to login: %1s';
 $lang['new_user_created_notification'] = 'The user information was successfully saved and a notification was sent to %1s.';
 $lang['error_cannot_deactivate_yourself'] = 'You cannot deactivate yourself.';
 
@@ -524,7 +528,7 @@ $lang['form_label_og_title'] = 'Open Graph title';
 $lang['form_label_og_description'] = 'Open Graph description';
 $lang['form_label_og_image'] = 'Open Graph image';
 $lang['form_label_category_id'] = 'Category';
-
+$lang['form_label_context'] = 'Context';
 
 $lang['form_label_group_id'] = 'Group';
 $lang['form_label_or_select'] = 'OR select';
@@ -549,9 +553,10 @@ $lang['layout_field_heading'] = 'Heading';
 $lang['layout_field_body_description'] = 'Main content of the page';
 $lang['layout_field_body_class'] = 'Body class';
 $lang['layout_field_redirect_to'] = 'Redirect to';
+$lang['layout_field_alias'] = 'Alias';
 
 $lang['layout_field_301_redirect_copy'] = 'This layout will do a 301 redirect to another page.';
-$lang['layout_field_alias_copy'] = 'This layout is similar to a 301 redirect but the location of the page does not change and <br />the page content from the specifiec location is used to render the page.';
+$lang['layout_field_alias_copy'] = 'This layout is similar to a 301 redirect but the location of the page does not change and <br />the page content from the specified location is used to render the page.';
 $lang['layout_field_sitemap_xml_copy'] = 'This layout is used to generate a sitemap. For this page to appear, a sitemap.xml must not exist on the server.';
 $lang['layout_field_robots_txt_copy'] = 'This layout is used to generate a robots.txt file. For this page to appear, a robots.txt must not exist on the server.';
 $lang['layout_field_none_copy'] = 'This layout is the equivalent of having no layout assigned.';
@@ -617,7 +622,7 @@ $lang['install_cli_intro'] .= "2) Set the session save path in fuel/application/
 $lang['install_cli_intro'] .= "3) Enable the CMS admin by changing the 'admin_enabled' config value in fuel/application/config/MY_fuel.php.\n";
 $lang['install_cli_intro'] .= "4) Change the 'fuel_mode' config value in in fuel/application/config/MY_fuel.php to allow for pages to be created in the CMS.\n";
 $lang['install_cli_intro'] .= "5) Change the 'site_name' config value in the fuel/application/config/MY_fuel.php.\n";
-$lang['install_cli_intro'] .= "6) Setup your evironments fuel/application/config/environments.php.\n";
+$lang['install_cli_intro'] .= "6) Setup your environments fuel/application/config/environments.php.\n";
 $lang['install_cli_intro'] .= "7) Will make the fuel/application/logs, fuel/application/cache and assets/images folders writable.\n";
 $lang['install_cli_intro'] .= "8) Update the fuel/application/config/database.php file with the inputted values.\n";
 $lang['install_cli_intro'] .= "9) Create a database and install the fuel_schema.sql file using your local MySQL connection.\n";
