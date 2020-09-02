@@ -318,7 +318,7 @@ $lang['form_label_hidden'] = 'Paslėptas';
 $lang['error_location_parents_match'] = 'Vieta ir pirminė vieta negali sutapti.';
 
 // for upload form
-$lang['form_label_clear_first'] = 'Išvalyti pirmą';
+$lang['form_label_clear_first'] = 'Pirma išvalyti';
 
 
 /*

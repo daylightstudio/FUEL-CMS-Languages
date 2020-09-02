@@ -43,7 +43,7 @@ $lang['rearrange_on'] = 'Eiliškumą galite pakeisti pasirinkdami ir vilkdami ž
 
 $lang['replace_warning'] = 'Ar tikrai norite pakeisti šio įrašo turinį?';
 
-$lang['edit_multi_select_warning'] = 'Norint redaguoti, turi būti pasirinkta tik viena parinktis.';
+$lang['edit_multi_select_warning'] = 'Norint redaguoti, turi būti pasirinktas tik vienas elementas.';
 
 $lang['filters_close'] = '&#8673; Uždaryti';
 $lang['filters_open'] = '&#8675; Atidaryti';

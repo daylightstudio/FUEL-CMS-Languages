@@ -11,7 +11,7 @@ $lang['inline_edit_toggle_cache'] = 'Kaitalioti puslapių talpyklos parametrus';
 
 $lang['inline_edit_tools'] = 'Įrankiai...';
 $lang['inline_edit_other_pages'] = 'Kiti puslapiai...';
-$lang['inline_edit_layout'] = 'Išdėstymas';
+$lang['inline_edit_layout'] = 'Maketas';
 
 $lang['inline_edit_back_to_admin'] = 'Grįžti į administravimo puslapį';
 $lang['inline_edit_logout'] = 'Atsijungti';
